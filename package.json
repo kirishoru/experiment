@@ -1,0 +1,15 @@
+{
+	"name": "experiment",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"start": "node ./bin/www"
+	},
+	"dependencies": {
+		"express": "~4.12.0",
+		"serve-favicon": "~2.2.0",
+		"mongodb": "*",
+		"monk": "*",
+      "mongoskin": "*"
+	}
+}
