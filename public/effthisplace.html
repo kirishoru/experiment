@@ -4,7 +4,7 @@
 <head>
     <title>Those Places</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
     <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet-src.js"></script>
@@ -14,13 +14,49 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
+		 		<div class="row" style="padding-bottom: 10px;"></div>
+
         <div class="row">
 <!--            <div class="col-xl-1"></div>-->
-            <div class="col-xs-12">
-                <h2></h2>
+			<div class="col-sm-3">
+				<div class="sidebar-nav">
+					<div class="navbar navbar-default bc-0-0" role="navigation">
+						<div class="navbar-header">
 
-                <div id="map"></div>
+							<button type="button" class="navbar-toggle bc-0-1" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="navbar-collapse collapse sidebar-navbar-collapse">
+							<ul class="nav navbar-nav">
+								<li class="menu">
+									<a href="index.html"><img alt="Brand" src="img/logo.svg" height="16px"> Home</a>
+								</li>
+								<li class="menu"><a href="resume.html"><span class="glyphicon glyphicon-briefcase"></span> Resume</a>
+								</li>
+								<li class="text-center bc-0-1">
+									<p class="fc-0-4" style="padding-right:10px;"><span class="caret"></span> Experiments<span class="caret"></span>
+									</p>
+								</li>
+								<li class="menu"><a href="calc.html"><span class="glyphicon glyphicon-scale"></span> Body Composition Calculator</a>
+								</li>
+								<li class="menu"><a href="dash.html"><span class="glyphicon glyphicon-dashboard"></span> Dashboard Concept</a>
+								</li>
+								<li class="menu"><a href="effthisplace.html"><span class="glyphicon glyphicon-globe"></span> Eff This Place</a>
+								</li>
+							</ul>
+						</div>
+						<!--/.nav-collapse -->
+					</div>
+				</div>
+			</div>
+			  
+
+                <div class="col-sm-9">
+					<div class="col-xs-12"  style="margin-bottom: 15px;">
 
                 <form class="form-inline" id="addPlace">
                     <div class="form-group col-xs-12" style="margin-bottom: 15px;">
@@ -47,16 +83,17 @@
 						 <div class="form-group col-xs-12"><button class="btn btn-primary btn-block" id="btnAddPlace">Map it</button></div>
 
                 </form>
+						 </div>
+					<div class="col-xs-12 fill"><div id="map"></div></div>
+			  </div>
 
             </div>
-<!--            <div class="col-xl-1"></div>-->
         </div>
-    </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 
     </script>
-    <script src="js/global.js"></script>
+    <script src="js/map.js"></script>
 
 
 </body>
