@@ -1,14 +1,126 @@
-body {
-  padding: 30px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+/*Color Pallettes*/
+
+.bc-0-0 {background-color: #7FA1FF;}
+.bc-0-1 {background-color: #E2EAFF;}
+.bc-0-2 {background-color: #A9C0FF;}
+.bc-0-3 {background-color: #5985FF;}
+.bc-0-4 {background-color: #2F66FC;}
+.fc-0-0 {color: #7FA1FF;}
+.fc-0-1 {color: #E2EAFF;}
+.fc-0-2 {color: #A9C0FF;}
+.fc-0-3 {color: #5985FF;}
+.fc-0-4 {color: #2F66FC;}
+
+/* make sidebar nav vertical */
+@media (min-width: 768px) {
+	.sidebar-nav .navbar .navbar-collapse {
+		padding: 0;
+		max-height: none;
+	}
+	.sidebar-nav .navbar ul {
+		float: none;
+	}
+	.sidebar-nav .navbar ul:not {
+		display: block;
+	}
+	.sidebar-nav .navbar li {
+		float: none;
+		display: block;
+	}
+	.sidebar-nav .navbar li a {
+		padding-top: 12px;
+		padding-bottom: 12px;
+		color: white;
+	}
+	.sidebar-nav .navbar li a:hover {
+		color: white;
+	}
 }
 
-h2 {
-	margin:0 0 .5em .5;
+/*nav and panel overrides*/
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #fff;
+	background-color: #2F66FC;
+}
+.panel-default>.panel-heading {
+	color: #fff;
+	background-color: #7FA1FF;
+	border-color: #ddd;
+}
+.panel-default>.panel-heading:hover,
+.panel-default>.panel-heading:focus {
+	background-color: #2F66FC;
+}
+.panel-body {
+	background-color: #E2EAFF
+}
+.panel-body p,
+.panel-body li {
+	font-family: "Open Sans";
+	font-size: 1em;
 }
 
-a {
-  color: #00B7FF;
+/*globals*/
+p,li,span,label,h1,h2,h3,h4,h5,h6,select,input {
+	font-family: "Open Sans"
+}
+
+/*calc*/
+svg {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: "Open Sans";
+	font-size: .75em;
+}
+.chartBar text {
+	fill: #333;
+	font-size: 1.15em;
+	font-weight: 800;
+}
+
+.jp7 {
+	display: none;
+}
+span.input-group-addon {
+	background-color: #7FA1FF ;
+	color: white;
+}
+.results {
+	font-family: "Open Sans";
+	color: #333333;
+	padding-top: 10px;
+}
+
+.bf {
+	font-size: 1.5em;
+	word-wrap: normal;
+	white-space: normal;
+}
+.stats {
+	font-family: "Open Sans";
+	font-size: 1em;
+	width: 110px;
+	height: 25px;
+	display: inline-block;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: #fff;
+	margin: 0px 5px 5px 0px;
+}
+.btn,
+.btn:focus {
+	color: white;
+	background-color: #7FA1FF
+}
+.btn:hover {
+	background-color: #2F66FC;
+	color: white;
 }
 
 #wrapper {
