@@ -69,6 +69,15 @@
 p,li,span,label,h1,h2,h3,h4,h5,h6,select,input,table {
 	font-family: "Open Sans"
 }
+body {
+	background-attachment: fixed;
+	background-image: linear-gradient(white, #E2EAFF, white);
+	box-sizing: border-box;
+	display: block;
+	font-family: "Open Sans";
+	height: auto;
+	width: auto;
+}
 
 /*calc*/
 svg {
@@ -113,15 +122,16 @@ span.input-group-addon {
 	background-color: #fff;
 	margin: 0px 5px 5px 0px;
 }
-.btn,
-.btn:focus {
+.btn {
 	color: white;
 	background-color: #7FA1FF
 }
-.btn:hover {
+.btn:hover,
+.active{
 	background-color: #2F66FC;
 	color: white;
 }
+
 
 /*map*/
 #wrapper {
@@ -154,9 +164,11 @@ span.input-group-addon {
 i.fa {
     font-size: 1.25em;
 }
+/*
 #r1 { background-color: lightgreen; }
 #r2 { background-color: dodgerblue; }
 #r3 { background-color: orangered; }
-#r1:focus, #r1:active { -webkit-filter: contrast(200%); -webkit-filter: brightness(150%); }
+#r1:focus, #r1:active { -webkit-filter: contrast(200%); -webkit-filter: brightness(150%);}
 #r2:focus, #r2:active { -webkit-filter: contrast(200%); -webkit-filter: brightness(150%);}
 #r3:focus, #r3:active { -webkit-filter: contrast(200%); -webkit-filter: brightness(150%);}
+*/
