@@ -62,12 +62,18 @@
 .panel-body p,
 .panel-body li {
 	font-family: "Open Sans";
-	font-size: 1em;
+	font-size: 0.9em;
 }
 
 /*globals*/
 p,li,span,label,h1,h2,h3,h4,h5,h6,select,input,table {
-	font-family: "Open Sans"
+	font-family: "Open Sans";
+}
+.pull-left {
+	margin-right: 5px;
+}
+ul {
+    list-style-type: none;
 }
 body {
 	background-attachment: fixed;
@@ -77,6 +83,9 @@ body {
 	font-family: "Open Sans";
 	height: auto;
 	width: auto;
+}
+span.big {
+	font-size: 4em;
 }
 
 /*calc*/
