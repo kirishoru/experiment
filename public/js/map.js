@@ -46,7 +46,7 @@ function mapInit() {
 function addPlace(event) {
     event.preventDefault();
     var rateVal = 0;
-    rateVal = $('input[name=rate]:checked').val();
+    rateVal = $('button[name=rate]:active').val();
 
     // Check and make sure a location is entered and a rate is selected
     if (rateVal > 0 & $('inputLocation').val() !== '') {
@@ -67,7 +67,7 @@ function addPlace(event) {
                 'lat': userLat,
                 'lng': userLng,
                 'timestamp': Date.now(),
-                'rate': $('input[name=rate]:checked').val(),
+                'rate': $('button[name=rate]:active').val(),
                 'comment': $('#comment').val()
                 
             }
@@ -82,8 +82,8 @@ function addPlace(event) {
 
                     // Clear the form inputs
                     $('.form-control').val('');
-                    $('input[type=radio]').prop('checked', function () {
-                        return this.getAttribute('checked') == 'checked';
+                    $('button').prop('active', function () {
+                        return this.getAttribute('active') == 'active';
                     });
 
                     // Update the table

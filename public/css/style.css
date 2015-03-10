@@ -138,7 +138,7 @@ span.input-group-addon {
     right: 0;
 */
     width: 100px;
-    height:600px;
+    height:500px;
     min-height: 100%;
     min-width: 100%;
     display: block;
@@ -151,3 +151,12 @@ span.input-group-addon {
     width: 100%;
     min-width: 100%;
 }
+i.fa {
+    font-size: 1.25em;
+}
+#r1 { background-color: lightgreen; }
+#r2 { background-color: dodgerblue; }
+#r3 { background-color: orangered; }
+#r1:focus, #r1:active { -webkit-filter: contrast(200%); -webkit-filter: brightness(150%); }
+#r2:focus, #r2:active { -webkit-filter: contrast(200%); -webkit-filter: brightness(150%);}
+#r3:focus, #r3:active { -webkit-filter: contrast(200%); -webkit-filter: brightness(150%);}

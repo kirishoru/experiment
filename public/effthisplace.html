@@ -4,6 +4,7 @@
 <head>
     <title>Those Places</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
@@ -60,20 +61,22 @@
 
                 <form class="form-inline" id="addPlace">
                     <div class="form-group col-xs-12" style="margin-bottom: 15px;">
+                        
                         <div class="input-group" style="width: inherit;">
-
                             <input class="form-control" id="inputLocation" type="text" placeholder="Add all or part of an address, then rate it.">
+                            <span class="input-group-btn">
+                                <button name="rate" class="btn" type="button" id="r1" value="1"><i class="fa fa-smile-o"></i></button>
+                                <button name="rate" class="btn" type="button" id="r2" value="2"><i class="fa fa-meh-o"></i></button>
+                                <button name="rate" class="btn" type="button" id="r3" value="3"><i class="fa fa-frown-o"></i></button>
+                            </span>
+<!--
                             <span class="input-group-addon" style="width: 100px;">
                             <small>(Hate it)</small>:1                  
                             <input type="radio" name="rate" id="r1" value=1>
                             <input type="radio" name="rate" id="r2" value=2>
                             <input type="radio" name="rate" id="r3" value=3>
-                            <input type="radio" name="rate" id="r4" value=4>
-                            <input type="radio" name="rate" id="r5" value=5>
-                            5:<small>(Love it)</small></span>
-                            <!span class="input-group-btn">
-<!--                                <button class="btn btn-primary btn-block" id="btnAddPlace">Map it</button>-->
-                            <!/span>
+                            3:<small>(Love it)</small></span>
+-->
                         </div>
                     </div>
                     <div class="form-group col-xs-12" style="margin-bottom: 15px;">
