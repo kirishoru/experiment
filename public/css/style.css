@@ -98,8 +98,9 @@
 	font-family: "Open Sans";
 	font-size: 0.9em;
 }
-/*globals*/
 
+
+/*globals*/
 p,
 li,
 span,
@@ -112,8 +113,12 @@ h5,
 h6,
 select,
 input,
-table {
+table,
+small {
 	font-family: "Open Sans";
+}
+div>small {
+    color: #333;
 }
 
 .pull-left {
