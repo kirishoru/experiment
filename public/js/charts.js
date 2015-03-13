@@ -24,8 +24,8 @@ $(document).ready(function () {
             bottom: 20,
             left: 20
         },
-        width = 400 - margin.left - margin.right,
-        height = width - margin.top - margin.bottom;
+        width = 600 - margin.left - margin.right,
+        height = 300 - margin.top - margin.bottom;
     var cwidth = 25;
 
     d3.selection.prototype.moveToFront = function () {
@@ -35,14 +35,14 @@ $(document).ready(function () {
     };
 
     var color = d3.scale.ordinal()
-        .range(["#7FA1FF", "#ebebeb"]);
+        .range(["#7FA1FF", "none"]);
 
     var svg = d3.select("#dash")
         .append("svg")
         .attr("width", width)
         .attr("height", height)
         .append("g")
-        .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+        .attr("transform", "translate(" + width / 4 + "," + height / 2 + ")");
 
     var gs = svg.selectAll("g").data(data).enter().append("g");
 
@@ -83,12 +83,12 @@ $(document).ready(function () {
         var res1 = str.split(",");
         var res2 = res1[1].split("A");
 
-        d3.select(this.parentNode).append("path").attr("class", "line").attr("d", function () {
-                return "M0," + res2[0] + "L0,135";
-            })
-            .attr("stroke", "#ffb333").attr("stroke-width", 3).attr("fill", "none");
+//        d3.select(this.parentNode).append("path").attr("class", "line").attr("d", function () {
+//                return "M" + res2[0] + ",0L100,-100";
+//            })
+//            .attr("stroke", "#ffb333").attr("stroke-width", 3).attr("fill", "none");
 
-        d3.select(this).append("text").attr("x", 0).attr("y", 150)
+        d3.select(this).append("text").attr("x", 40).attr("y", -15)
             .text(function (d, i) {
                 return d.name + ": " + d.values[0] * 10 + "% Complete";
             })
