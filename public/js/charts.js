@@ -36,7 +36,7 @@ $(document).ready(function () {
 	};
 
 	var color = d3.scale.ordinal()
-		.range(["#7FA1FF", "none"]);
+		.range(["#7FA1FF", "#fff"]);
 
 	var svg = d3.select("#dash1")
 		.append("svg")
