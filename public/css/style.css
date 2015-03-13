@@ -229,6 +229,18 @@ span.input-group-addon {
 i.fa {
 	font-size: 1.25em;
 }
+
+.dashPanel {
+	margin: 0 5px 5px 5px;
+	padding: 10px;
+}
+text {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.25em;
+	text-anchor: right;
+	cursor: default;
+}
+
 /*
 #r1 { background-color: lightgreen; }
 #r2 { background-color: dodgerblue; }
