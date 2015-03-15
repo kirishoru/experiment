@@ -46,10 +46,10 @@ $(document).ready(function () {
 			var Ftext = groups.append("text");
 			var Ltext = groups.append("text");
 
-			Frects.attr("y", 0).attr("x", 0).attr("width", 0).attr("height", barHeight).attr("fill", "orangered")
+			Frects.attr("y", 0).attr("x", 0).attr("width", 0).attr("height", barHeight).attr("fill", "#60117D")
 				.transition().attr("width", function () {return x(zults[0].FM);}).duration(750).delay(100);
 
-			Lrects.attr("y", 0).attr("x", 0).attr("width", 0).attr("height", barHeight).attr("fill", "#2F66FC")
+			Lrects.attr("y", 0).attr("x", 0).attr("width", 0).attr("height", barHeight).attr("fill", "#FF6500")
 				.transition().attr("width", function () {return x(zults[0].LM);}).attr("x", function () {return x(zults[0].FM) + 1;}).duration(750).delay(100);
 
 			Ftext.attr("x", 5).attr("y", (barHeight / 2) + 35).text("FM: " + zults[0].FM + "lbs").attr("dy", ".35em");

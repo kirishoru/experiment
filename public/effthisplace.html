@@ -10,7 +10,17 @@
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.min.js"></script>
 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 	<script type="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
-    <script src="js/script.js"></script>
+<!--    <script src="js/script.js"></script>-->
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-21878389-2', 'auto');
+  ga('send', 'pageview');
+    </script>
 
 	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
@@ -65,12 +75,13 @@
 
 			<div class="col-sm-9">
 				<div class="panel panel-body">
-					<p><strong>EffThisPlace</strong> started as a conversation with some colleagues about building a non-market specific comment map. The idea was to let any user put a point anywhere they want on a map, and then add a rating and a comment to the point. We'd let users view other people's comments and ratings and allow other types of visualizations. The full product is still a work in progress, but this is a concept map I came up with to demonstrate the idea. It utilizes a simple leaflet map, some custom markers, and mongoDB for record storage. The current functionality allows users to drag the marker to an appropriate location before confirming. The rating system is randomly generated. </p>
+					<p><strong>EffThisPlace</strong> started as a conversation with some colleagues about building a non-market specific comment map. The idea was to let any user put a point anywhere they want on a map, and then add a rating and a comment to the point. We'd let users view other people's comments and ratings and allow other types of visualizations. The full product is still a work in progress, but this is a concept map I came up with to demonstrate the idea. It utilizes a simple leaflet map, some custom markers, and mongoDB for record storage. The current functionality allows users to drag the marker to an appropriate location before passing a rating and an optional comment.</p>
+                    <p>You can see the full screen version of this map <a href="map.html">here</a>.</p>
 				</div>
 				<form class="form-block" id="addPlace">
 
 					<div class="form-group">
-						<button class="btn btn-primary btn-block" id="btnAddPlace">Map it</button>
+						<button class="btn btn-block" id="btnAddPlace">Map it</button>
 					</div>
 				</form>
 				<div id="map"></div>
@@ -82,22 +93,22 @@
 							<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
 								</button>
-								<h4 class="modal-title" id="myModalLabel">title</h4>
+<!--								<h4 class="modal-title" id="myModalLabel">title</h4>-->
 							</div>
 							<div class="modal-body text-center">
-								<p>Select a rating icon.</p>
-								<button name="rate" class="btn ratebtn" type="button" id="r1" value="1"><i class="fa fa-smile-o"></i>
+								<p>Tell me how you feel about that place.</p>
+								<button name="rate" class="btn btn-lg ratebtn" type="button" id="r1" value="1"><i class="fa fa-smile-o"></i>
 								</button>
-								<button name="rate" class="btn ratebtn" type="button" id="r2" value="2"><i class="fa fa-meh-o"></i>
+								<button name="rate" class="btn btn-lg ratebtn" type="button" id="r2" value="2"><i class="fa fa-meh-o"></i>
 								</button>
-								<button name="rate" class="btn ratebtn" type="button" id="r3" value="3"><i class="fa fa-frown-o"></i>
+								<button name="rate" class="btn btn-lg ratebtn" type="button" id="r3" value="3"><i class="fa fa-frown-o"></i>
 								</button>
 							</div>
 							<div class="modal-body">
-								<textarea id="comment" class="form-control" rows="2" placeholder="Care to explain your rating?" style="width: 100%;"></textarea>
+								<textarea id="comment" class="form-control" rows="2" placeholder="Why?" style="width: 100%;"></textarea>
 							</div>
 							<div class="modal-footer">
-								<button type="button" class="btn btn-default" data-dismiss="modal" id="submit">Submit</button>
+								<button type="button" class="btn" data-dismiss="modal" id="submit">Submit</button>
 							</div>
 						</div>
 					</div>

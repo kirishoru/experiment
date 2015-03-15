@@ -2,43 +2,43 @@
 /*Color Pallettes*/
 
 .bc-0-0 {
-	background-color: #7FA1FF;
+	background-color: #2A0036;
 }
 
 .bc-0-1 {
-	background-color: #E2EAFF;
+	background-color: #60117D;
 }
 
 .bc-0-2 {
-	background-color: #A9C0FF;
+	background-color: #825182;
 }
 
 .bc-0-3 {
-	background-color: #5985FF;
+	background-color: #821A16;
 }
 
 .bc-0-4 {
-	background-color: #2F66FC;
+	background-color: #FF6500;
 }
 
 .fc-0-0 {
-	color: #7FA1FF;
+	color: #2A0036;
 }
 
 .fc-0-1 {
-	color: #E2EAFF;
+	color: #60117D;
 }
 
 .fc-0-2 {
-	color: #A9C0FF;
+	color: #825182;
 }
 
 .fc-0-3 {
-	color: #5985FF;
+	color: #821A16;
 }
 
 .fc-0-4 {
-	color: #2F66FC;
+	color: #FF6500;
 }
 /* make sidebar nav vertical */
 
@@ -67,39 +67,51 @@
 	}
 }
 /*nav and panel overrides*/
-
+.navbar-default { 
+    border-color: #111;
+}
 .navbar-default .navbar-nav > li > a {
-	color: #fff;
+	color: #ddd;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	color: #fff;
-	background-color: #2F66FC;
+	color: #ddd;
+	background-color: #60117D;
 }
-
+.panel {
+    background-color: #825182;   
+}
+.panel-default {
+    border-color: #111   
+}
 .panel-default>.panel-heading {
-	color: #fff;
-	background-color: #7FA1FF;
-	border-color: #ddd;
+	color: #ddd;
+	background-color: #821A16;
+	border-color: #111;
 }
-
 .panel-default>.panel-heading:hover,
 .panel-default>.panel-heading:focus {
-	background-color: #2F66FC;
+	background-color: #60117D;
 }
-
 .panel-body {
-	background-color: #E2EAFF
+	background-color: #825182;
+    margin: 3px;
+    border-top-color: #111;
+    border-radius: 3px:
 }
-
 .panel-body p,
 .panel-body li {
 	font-family: "Open Sans";
 	font-size: 0.9em;
+    color: #ddd;
 }
-
-
+.panel-body a {
+    color: #FF6500;
+}
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: transparent;
+}
 /*globals*/
 p,
 li,
@@ -116,9 +128,10 @@ input,
 table,
 small {
 	font-family: "Open Sans";
+    color: #ddd;
 }
 div>small {
-    color: #333;
+    color: #ddd;
 }
 
 .pull-left {
@@ -131,7 +144,7 @@ ul {
 
 body {
 	background-attachment: fixed;
-	background-image: linear-gradient(white, #E2EAFF, white);
+	background-image: linear-gradient(#2A0036, #60117D, #2A0036);
 	box-sizing: border-box;
 	display: block;
 	font-family: "Open Sans";
@@ -141,6 +154,13 @@ body {
 
 span.big {
 	font-size: 4em;
+}
+span.med {
+	font-size: 2em;
+}
+.img-thumbnail {
+    background-color: #825182;
+    border-color: #111;
 }
 /*calc*/
 
@@ -152,7 +172,7 @@ svg {
 }
 
 .chartBar text {
-	fill: #333;
+	fill: #ddd;
 	font-size: 1.15em;
 	font-weight: 800;
 }
@@ -162,13 +182,13 @@ svg {
 }
 
 span.input-group-addon {
-	background-color: #7FA1FF;
+	background-color: #60117D;
 	color: white;
 }
 
 .results {
 	font-family: "Open Sans";
-	color: #333333;
+	color: #ddd;
 	padding-top: 10px;
 }
 
@@ -187,19 +207,19 @@ span.input-group-addon {
 	padding: 5px;
 	border: 1px solid #ddd;
 	border-radius: 4px;
-	background-color: #fff;
+	background-color: #ddd;
 	margin: 0px 5px 5px 0px;
 }
 
 .btn {
-	color: white;
-	background-color: #7FA1FF
+	background-color: #60117D
 }
-
+.btn, .btn:hover, .btn:focus {
+    	color: white;   
+}
 .btn:hover,
 .active {
-	background-color: #2F66FC;
-	color: white;
+	background-color: #FF6500;
 }
 /*map*/
 
@@ -210,12 +230,12 @@ span.input-group-addon {
 
 #map {
 	width: 100px;
-	height: 500px;
+	height: 400px;
 	min-height: 100%;
 	min-width: 100%;
 	display: block;
 	margin-bottom: 15px;
-	border: 1px solid #ddd;
+	border: 1px solid #111;
 	border-radius: 4px;
 }
 
@@ -239,6 +259,35 @@ text {
 	font-size: 1.25em;
 	text-anchor: right;
 	cursor: default;
+}
+.form-block {
+    padding-top: 5px;
+}
+.modal-body, .modal-header, .modal-footer {
+    background-color: #825182;
+    border-top: transparent;
+    border-bottom: transparent;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+    background-color: #825182;
+}
+.leaflet-control, .leaflet-bar a, .leaflet-control-zoom-in, .leaflet-control-zoom-out {
+    background-color: #825182;
+    border-bottom: none;
+    border-top: none;
+}
+.leaflet-bar a:hover, .leaflet-bar a:focus {
+    background-color: #FF6500;
+        border-bottom: none;
+    border-top: none;
+}
+.leaflet-control-attribution {
+    visibility: hidden;   
+}
+.leaflet-popup-content {
+    color: #ddd;
 }
 
 /*

@@ -8,18 +8,20 @@ var position = [];
 
 // Map Variables & Settings ============================================
 
-var map = new L.Map('map').addLayer(new L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png")).setView(new L.LatLng(45.51, -122.67), 9);
+var map = new L.Map('map').addLayer(new L.tileLayer("http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png")).setView(new L.LatLng(45.51, -122.67), 9);
+//var map = new L.Map('map').addLayer(new L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png")).setView(new L.LatLng(45.51, -122.67), 9);
 
 var smileMarkers = new L.layerGroup().addTo(map);
 var mehMarkers = new L.layerGroup().addTo(map);
 var frownMarkers = new L.layerGroup().addTo(map);
 
 var controls = {
-	"Smiles": smileMarkers,
-	"Mehs": mehMarkers,
-	"Frowns": frownMarkers
+	'<span class="fa med fa-smile-o"></span>': smileMarkers,
+	'<span class="fa med fa-meh-o"></span>': mehMarkers,
+	'<span class="fa med fa-frown-o"></span>': frownMarkers
 }
-L.control.layers("", controls).addTo(map);
+//L.control.layers("", controls).addTo(map);
+
 
 var frownIcon = L.AwesomeMarkers.icon({
 	icon: 'fa-frown-o',
@@ -30,7 +32,7 @@ var frownIcon = L.AwesomeMarkers.icon({
 var mehIcon = L.AwesomeMarkers.icon({
 	icon: 'fa-meh-o',
 	prefix: 'fa',
-	markerColor: 'gray'
+	markerColor: 'blue'
 });
 
 var smileIcon = L.AwesomeMarkers.icon({
@@ -97,7 +99,7 @@ function addPlace(event) {
 	map.on('locationerror', onLocationError);
 
 	function onLocationFound(e) {
-		var popOverLink = $('<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Here?</button>').click(function () {
+		var popOverLink = $('<button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">Here?</button>').click(function () {
 			map.closePopup();
 		})[0];
 

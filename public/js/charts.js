@@ -2,7 +2,7 @@ $(document).ready(function () {
 
 	var data = [
 		{
-			"name": "Website Framework",
+			"name": "Framework",
 			"values": [10, 0]
 }, {
 			"name": "Resume Page",
@@ -36,7 +36,7 @@ $(document).ready(function () {
 	};
 
 	var color = d3.scale.ordinal()
-		.range(["#7FA1FF", "#fff"]);
+		.range(["#FF6500", "#825182"]);
 
 	var svg = d3.select("#dash1")
 		.append("svg")
@@ -85,7 +85,7 @@ $(document).ready(function () {
 		.text(function (d, i) {
 			return d.name;
 		})
-		.attr("fill", "#2F66FC")
+		.attr("fill", "#FF6500")
 		.style("font-weight", "bold");
 
 	gs.on("mouseover", function () {
@@ -102,7 +102,7 @@ $(document).ready(function () {
 			.attr("d", function () {
 				return "M" + (res2[1] - (cwidth/2)) + ",0L" + (width / 3) + "," + texty;
 			})
-			.attr("stroke", "#2F66FC")
+			.attr("stroke", "#60117D")
 			.attr("stroke-width", 2)
 			.attr("fill", "none");
 		
@@ -119,7 +119,7 @@ $(document).ready(function () {
 	});
 
 	gs.on("mouseleave", function () {
-		d3.select(this).select(".path0").attr("fill", "#7FA1FF");
+		d3.select(this).select(".path0").attr("fill", "#FF6500");
 				d3.selectAll("#percTag").remove();
 				d3.selectAll(".line").remove();
 	});
