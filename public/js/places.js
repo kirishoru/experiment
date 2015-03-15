@@ -25,12 +25,13 @@ function populateTable() {
 
         // Stick our Place data array into a list variable in the global object
         placeData = data;
-
+        pdate = new Date(this.timestamp*1000)
         // For each item in our JSON, add a table row and cells to the content string
         $.each(data, function () {
             tableContent += '<tr>';
-            tableContent += '<td><a href="#" class="linkshowplace" rel="' + this.timestamp + '" title="Show Details">' + this.timestamp + '</a></td>';
+            tableContent += '<td><a href="#" class="linkshowplace" rel="' + new Date(this.timestamp*1000) + '" title="Show Details">' + new Date(this.timestamp*1000) + '</a></td>';
             tableContent += '<td><a href="#" class="linkdeleteplace" rel="' + this.rate + '">' + this.rate + '</a></td>';
+            tableContent += '<td><a href="#" class="linkdeleteplace" rel="' + this.comment + '">' + this.comment + '</a></td>';
             tableContent += '<td><a href="#" class="linkdeleteplace" rel="' + this._id + '">delete</a></td>';
             tableContent += '</tr>';
         });
