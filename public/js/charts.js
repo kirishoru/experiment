@@ -2,20 +2,20 @@ $(document).ready(function () {
 
 	var data = [
 		{
-			"name": "Dashboad",
-			"values": [2, 8]
+			"name": "Framework",
+			"values": [10, 0]
 }, {
-			"name": "EffThisPlace Map",
-			"values": [9.5, 0.5]
+			"name": "Resume",
+			"values": [10, 0]
 }, {
 			"name": "Calculator Page",
 			"values": [10, 0]
 }, {
-			"name": "Resume Page",
-			"values": [10, 0]
+			"name": "EffThisPlace Map",
+			"values": [9.5, 005]
 }, {
-			"name": "Framework",
-			"values": [10, 0]
+			"name": "Dashboad",
+			"values": [2, 8]
 }];
 
 	var margin = {
@@ -49,9 +49,9 @@ $(document).ready(function () {
 
 	var pie = d3.layout.pie()
 		.sort(null)
-		.startAngle(90 * (Math.PI / 180))
-		.endAngle(450 * (Math.PI / 180));
-	//        .endAngle(2 * Math.PI);
+//		.startAngle(90 * (Math.PI / 180))
+//		.endAngle(450 * (Math.PI / 180));
+	        .endAngle(2 * Math.PI);
 
 	var arc = d3.svg.arc()
 		.innerRadius(function (d, i, j) {
