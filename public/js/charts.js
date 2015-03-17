@@ -2,20 +2,20 @@ $(document).ready(function () {
 
 	var data = [
 		{
-			"name": "Framework",
+			"name": "Dashboad",
+			"values": [2, 8]
+}, {
+			"name": "EffThisPlace Map",
+			"values": [9.5, 0.5]
+}, {
+			"name": "Calculator Page",
 			"values": [10, 0]
 }, {
 			"name": "Resume Page",
 			"values": [10, 0]
 }, {
-			"name": "Calculator Page",
+			"name": "Framework",
 			"values": [10, 0]
-}, {
-			"name": "EffThisPlace Map",
-			"values": [9.5, 0.5]
-}, {
-			"name": "Dashboad",
-			"values": [2, 8]
 }];
 
 	var margin = {
