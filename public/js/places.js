@@ -21,7 +21,7 @@ function populateTable() {
     var tableContent = '';
 
     // jQuery AJAX call for JSON
-    $.getJSON('/placelist', function (data) {
+    $.getJSON('/api/placelist', function (data) {
 
         // Stick our Place data array into a list variable in the global object
         placeData = data;
@@ -55,11 +55,11 @@ function deletePlace(event) {
         // If they did, do our delete
         $.ajax({
             type: 'DELETE',
-            url: '/deleteplace/' + $(this).attr('rel')
+            url: '/api/deleteplace/' + $(this).attr('rel')
         }).done(function (response) {
 
             // Check for a successful (blank) response
-            if (response.msg === '') {} else {
+			  if (response.msg === 'OK') {} else {
                 alert('Error: ' + response.msg);
             }
 

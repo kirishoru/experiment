@@ -87,12 +87,13 @@
 }
 .panel-default>.panel-heading {
 	color: #ddd;
-	background-color: #821A16;
+	background-color: #60117D;
 	border-color: #111;
 }
 .panel-default>.panel-heading:hover,
 .panel-default>.panel-heading:focus {
-	background-color: #60117D;
+	background-color: #FF6500;
+	color: #222;
 }
 .panel-body {
 	background-color: #825182;

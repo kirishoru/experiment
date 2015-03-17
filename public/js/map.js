@@ -22,7 +22,6 @@ var controls = {
 }
 //L.control.layers("", controls).addTo(map);
 
-
 var frownIcon = L.AwesomeMarkers.icon({
 	icon: 'fa-frown-o',
 	prefix: 'fa',
@@ -46,7 +45,7 @@ var smileIcon = L.AwesomeMarkers.icon({
 
 //Populate Map
 function popMap() {
-	$.getJSON('/placelist', function (data1) {
+	$.getJSON('/api/placelist', function (data1) {
 		if (map.hasLayer(userPoint)) {
 			map.removeLayer(userPoint);
 		};
@@ -144,14 +143,19 @@ function savePoint(event) {
 		$.ajax({
 			type: 'POST',
 			data: JSON.stringify(newPlace),
+//			url: '/api/addplace',
 			url: 'https://api.mongolab.com/api/1/databases/effthisplace/collections/placelist?apiKey=kWDQt_LhOcoqnD3vdPCx_7OthM_5TOEJ',
-			contentType: 'application/json'
+			contentType: 'application/json',
+			success: function(msg) {
+			},
+			error: function(msg){
+			console.log(msg);
+			}
 		}).done(function (response) {
 			// Clear the Map
 			if (map.hasLayer(userPoint)) {
 				map.removeLayer(userPoint);
 			};
-
 			// Clear the form
 			$('#comment').val('');
 			$('.active').removeClass('active');
