@@ -69,7 +69,8 @@ var myButton = L.control({ position: 'topright' });
 
 myButton.onAdd = function (map) {
     this._div = L.DomUtil.create('div', 'img-thumbnail');
-    this._div.innerHTML = '<button class="btn" id="btnAddPlace" style="background-color: #825182;"><span class="fa fa-crosshairs med"></span></button>';
+    this._div.innerHTML = '<button class="btn" id="btnAddPlace" style="background-color: #825182;">Add Your Own!</button>';
+//    this._div.innerHTML = '<button class="btn" id="btnAddPlace" style="background-color: #825182;"><span class="fa fa-crosshairs med"></span></button>';
     return this._div;
 };
 
