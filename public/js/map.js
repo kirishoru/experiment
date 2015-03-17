@@ -143,13 +143,14 @@ function savePoint(event) {
 		$.ajax({
 			type: 'POST',
 			data: JSON.stringify(newPlace),
-//			url: '/api/addplace',
-			url: 'https://api.mongolab.com/api/1/databases/effthisplace/collections/placelist?apiKey=kWDQt_LhOcoqnD3vdPCx_7OthM_5TOEJ',
+			url: '/api/addplace',
+//			url: 'https://api.mongolab.com/api/1/databases/effthisplace/collections/placelist?apiKey=kWDQt_LhOcoqnD3vdPCx_7OthM_5TOEJ',
 			contentType: 'application/json',
-			success: function(msg) {
+			success: function(data, textStatus, jqXHR) {
+				
 			},
-			error: function(msg){
-			console.log(msg);
+			error: function(jqXHR, textStatus, errorThrown){
+			
 			}
 		}).done(function (response) {
 			// Clear the Map

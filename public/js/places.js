@@ -57,10 +57,9 @@ function deletePlace(event) {
             type: 'DELETE',
             url: '/api/deleteplace/' + $(this).attr('rel')
         }).done(function (response) {
-
-            // Check for a successful (blank) response
-			  if (response.msg === 'OK') {} else {
-                alert('Error: ' + response.msg);
+            // Check for a successful response
+			  if (response === 'OK') {} else {
+                alert('Error: ' + response);
             }
 
             // Update the table
