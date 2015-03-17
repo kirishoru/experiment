@@ -37,7 +37,7 @@ api.get('/placelist', function (req, res, next) {
 });
 
 api.post('/addplace', function (req, res, done) {
-	winston.log('AddPlace', req.body);
+//	winston.log('AddPlace', req.body);
 	db.connect("mongodb://effthisplace:effthisplace@ds051851.mongolab.com:51851/effthisplace", function (err, db) {
 		if (err) return console.dir(err);
 		db.collection('placelist').insert(req.body, function (err, items) {
@@ -48,7 +48,7 @@ api.post('/addplace', function (req, res, done) {
 });
 
 api.delete('/deleteplace/:id', function (req, res, done) {
-	winston.log('DeletePlace', req.body);
+//	winston.log('DeletePlace', req.body);
 	var placeToDelete = req.params.id;
 	db.connect("mongodb://effthisplace:effthisplace@ds051851.mongolab.com:51851/effthisplace", function (err, db) {
 		//		if (err) return console.dir(err);
