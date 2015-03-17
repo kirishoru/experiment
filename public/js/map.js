@@ -144,7 +144,6 @@ function savePoint(event) {
 			type: 'POST',
 			data: JSON.stringify(newPlace),
 			url: '/api/addplace',
-//			url: 'https://api.mongolab.com/api/1/databases/effthisplace/collections/placelist?apiKey=kWDQt_LhOcoqnD3vdPCx_7OthM_5TOEJ',
 			contentType: 'application/json',
 			success: function(data, textStatus, jqXHR) {
 				
@@ -170,7 +169,6 @@ function savePoint(event) {
 		return false;
 	}
 };
-
 
 // DOM Ready =============================================================
 $(document).ready(function () {
