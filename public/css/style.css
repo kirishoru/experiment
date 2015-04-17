@@ -261,6 +261,12 @@ text {
 	text-anchor: right;
 	cursor: default;
 }
+.icon {
+	font-family: "FontAwesome", sans-serif;
+	font-size: 3em;
+	cursor: default;
+	font-weight: 500;
+}
 .form-block {
     padding-top: 5px;
 }
