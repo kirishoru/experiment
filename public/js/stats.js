@@ -7,7 +7,7 @@ $(document).ready(function () {
 		rates = _.countBy(data, function(d){
 			return d.rate;
 		});
-		vals = [{name: 'threes', value: rates[3], icon: '\uf118'},{name: 'twos', value: rates[2], icon: '\uf11a'},{name: 'ones', value: rates[1], icon: '\uf119'}];
+		vals = [{name: 'threes', value: rates[1], icon: '\uf118'},{name: 'twos', value: rates[2], icon: '\uf11a'},{name: 'ones', value: rates[3], icon: '\uf119'}];
 		
 		var margin = {top: 25,right: 20,bottom: 25,left: 20},
 			 width = $('#dash2').width() - margin.left - margin.right,
@@ -45,9 +45,7 @@ $(document).ready(function () {
 			.attr("class", "icon")
 			.attr("fill", "white")
 			.text( function(d, i) {return vals[i].icon;});
-		
-		
-	
+			
 	});
 
 });
