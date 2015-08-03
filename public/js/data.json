@@ -1,0 +1,1337 @@
+[
+{
+"type": "FeatureCollection",
+"features": [
+{
+"_id": "548214b98c5100f3694f2421",
+"type": "Feature",
+"properties": {
+"commentType": "centerTurnLane",
+"like": true,
+"commentText": "I love turtles.",
+"timeStamp": 1417811093137,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.52553939819336,
+45.50012074791233
+]
+}
+},
+{
+"_id": "548214d58c5100f3694f2422",
+"type": "Feature",
+"properties": {
+"commentType": "transit",
+"like": true,
+"commentText": "",
+"timeStamp": 1417811121312,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.52425193786621,
+45.500436583853926
+]
+}
+},
+{
+"_id": "5482326b8c5100f3694f2425",
+"type": "Feature",
+"properties": {
+"commentType": "businessAccess",
+"like": true,
+"commentText": "Good burgers!",
+"timeStamp": 1417818699341,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.51790046691895,
+45.50363996257211
+]
+}
+},
+{
+"_id": "548233f64de803f06c8ef072",
+"type": "Feature",
+"properties": {
+"commentType": "businessAccess",
+"like": true,
+"commentText": "",
+"timeStamp": 1417819090194,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.53154754638672,
+45.49876714523858
+]
+}
+},
+{
+"_id": "548238104de803f06c8ef078",
+"type": "Feature",
+"properties": {
+"commentType": "streetLuminance",
+"like": true,
+"commentText": "Do you see the light?",
+"timeStamp": 1417820140092,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.52618312835695,
+45.497473672279874
+]
+}
+},
+{
+"_id": "54853efd927dec7e743a4ccf",
+"type": "Feature",
+"properties": {
+"commentType": "sideWalks",
+"like": true,
+"commentText": "Side is great",
+"timeStamp": 1418018518305,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.51043319702148,
+45.50255715072168
+]
+}
+},
+{
+"_id": "5485e405927dec7e743a4cd0",
+"type": "Feature",
+"properties": {
+"commentType": "sideWalks",
+"like": true,
+"commentText": "Great running park",
+"timeStamp": 1418060765492,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.50167846679686,
+45.491727886772516
+]
+}
+},
+{
+"_id": "5485ea48927dec7e743a4cd2",
+"type": "Feature",
+"properties": {
+"commentType": "streetLuminance",
+"like": true,
+"commentText": "this awesome",
+"timeStamp": 1418062368887,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.48472690582277,
+45.5043016706727
+]
+}
+},
+{
+"_id": "5485ea71927dec7e743a4cd3",
+"type": "Feature",
+"properties": {
+"commentType": "pedestrianCrossing",
+"like": true,
+"commentText": "yes",
+"timeStamp": 1418062410076,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.49210834503174,
+45.501835264584614
+]
+}
+},
+{
+"_id": "54860f5e09d163a31f36c2d8",
+"type": "Feature",
+"properties": {
+"commentType": "streetLuminance",
+"like": true,
+"commentText": "test",
+"timeStamp": 1418071861811,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.54798412322998,
+45.49648098683459
+]
+}
+},
+{
+"_id": "548635fb09d163a31f36c2d9",
+"type": "Feature",
+"properties": {
+"commentType": "businessAccess",
+"like": true,
+"commentText": "Test",
+"timeStamp": 1418081748845,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.5638198852539,
+45.49708261646626
+]
+}
+},
+{
+"_id": "54866dfc09d163a31f36c2db",
+"type": "Feature",
+"properties": {
+"commentType": "sideWalks",
+"like": true,
+"commentText": "The placement of the street sign is hard to see.  This street leads to a local elementary.",
+"timeStamp": 1418096086025,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.53000259399413,
+45.49730822592094
+]
+}
+},
+{
+"_id": "54866e6609d163a31f36c2dc",
+"type": "Feature",
+"properties": {
+"commentType": "centerTurnLane",
+"like": true,
+"commentText": "Lacks curbs to define where the street sides are.  Needs curbs and sidewalks.  Worst major street in our school district.  Others are 5 lane.  Why is this \"highway\" only 2?",
+"timeStamp": 1418096192475,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.5321912765503,
+45.49738342887162
+]
+}
+},
+{
+"_id": "5570f2c5956bc8500553386b",
+"type": "Feature",
+"properties": {
+"commentType": "centerTurnLane",
+"like": true,
+"commentText": "The I-205 is a key destination for those using Powell on foot and on bike. This project should provide safe access to the I-205 path.",
+"timeStamp": 1433465528970,
+"uid": "",
+"ip": "e7952e80cfa51e56d95dade0936f2a690d41d731"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.56630897521973,
+45.49738342887162
+]
+}
+},
+{
+"_id": "5487b8ada0fdfa783facbee2",
+"type": "Feature",
+"properties": {
+"commentType": "pedestrianCrossing",
+"like": true,
+"commentText": "The light should interact with the crosswalk.  Right lane traffic light independent of left lane.    Bikes and pedestrians could have separate lights for safety.",
+"timeStamp": 1418180740610,
+"uid": "",
+"ip": "b1a8a9973b432f2e31f31d38f725946c60f97067"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.56420612335204,
+45.49696229105415
+]
+}
+},
+{
+"_id": "5489e137a0fdfa783facbee9",
+"type": "Feature",
+"properties": {
+"commentType": "transit",
+"like": true,
+"commentText": "We need a center left turn lane. It is criminally negligent to suggest to cyclists that Powell would be a safe place to ride, when cars use the bike lane to pass on the right.",
+"timeStamp": 1418322187957,
+"uid": "",
+"ip": "e256ada9ba9066819e97a57f09bac766322db4f6"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.50691413879393,
+45.49693220966094
+]
+}
+},
+{
+"_id": "54ac7f6ea0fdfa783facbeec",
+"type": "Feature",
+"properties": {
+"commentType": "centerTurnLane",
+"like": true,
+"commentText": "to turn from Powell to 99th blocks the one lane of eastbound traffic.  Drivers often pass on the right by driving on the shoulder, even if the vehicle is a bus headed for the garage entrance on 99th st.",
+"timeStamp": 1420590885264,
+"uid": "",
+"ip": "cdbd0cb9edb09dc597bc1ccc0e256a6a252a875a"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.56171703338623,
+45.49642082351791
+]
+}
+},
+{
+"_id": "54ac8026a0fdfa783facbeed",
+"type": "Feature",
+"properties": {
+"commentType": "transit",
+"like": true,
+"commentText": "Coming off 99th to go east takes a two or three minute wait during rush hours, since cars are backed up from the freeway to 104th Avenue.  Some times I go the long way around via Holgate and 92 just to avoid this difficult intersection.",
+"timeStamp": 1420591069893,
+"uid": "",
+"ip": "cdbd0cb9edb09dc597bc1ccc0e256a6a252a875a"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.56171703338623,
+45.49643586435311
+]
+}
+},
+{
+"_id": "54ac815aa0fdfa783facbeee",
+"type": "Feature",
+"properties": {
+"commentType": "transit",
+"like": true,
+"commentText": "There is no easy way to get here from I205 south bound lanes.  Even busses headed for the garage must  detour thru the busy intersection at Powell and 92nd.  Would it decrease traffic to undo \"no left turn\" barriers at the Powell exit?",
+"timeStamp": 1420591377902,
+"uid": "",
+"ip": "cdbd0cb9edb09dc597bc1ccc0e256a6a252a875a"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.56171703338623,
+45.49645090518429
+]
+}
+},
+{
+"_id": "54ba04b1d608263e2c728a9a",
+"type": "Feature",
+"properties": {
+"commentType": "streetLuminance",
+"like": true,
+"commentText": "Need the left Turn Signal from SE 112th ave. (North bound) turn left to SE Powell blvd. (go to downtown). It's safe traffic for Ron Russell Middle School on SE 112th ave.",
+"timeStamp": 1421476957580,
+"uid": "",
+"ip": "6ebab359b8727a0d56033b0fdd353bb82b3c77f5"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.54802703857422,
+45.49642082351791
+]
+}
+},
+{
+"_id": "54c1eb2bd608263e2c728a9b",
+"type": "Feature",
+"properties": {
+"commentType": "streetLuminance",
+"like": true,
+"commentText": "We need a left turn only traffic signal from SE 112th ave to SE Powell blvd (westbound, go to SE 92nd). Most of the time, we were waiting, then turn left to Powell at  yellow light, it's not safe.",
+"timeStamp": 1421994704882,
+"uid": "",
+"ip": "6ebab359b8727a0d56033b0fdd353bb82b3c77f5"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.5478982925415,
+45.49587935077509
+]
+}
+},
+{
+"_id": "54d2b2be6cfcee774c0782dd",
+"type": "Feature",
+"properties": {
+"commentType": "sideWalks",
+"like": true,
+"commentText": "The improvements that were done on Powell east of the Gresham-Portland city limits boundary should be extended all the way to the I-205 junction. What's there now is over capacity.",
+"timeStamp": 1423094353540,
+"uid": "",
+"ip": "9034ca51fe609ef62b2f649dae32f3042d8a144b"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.48283863067627,
+45.491938475647856
+]
+}
+},
+{
+"_id": "54d2d9516cfcee774c0782df",
+"type": "Feature",
+"properties": {
+"commentType": "transit",
+"like": true,
+"commentText": "Throughout the corridor there should be adequate areas for buses to leave the highway while picking up and discharging passengers to aide the flow of traffic.",
+"timeStamp": 1423104228767,
+"uid": "",
+"ip": "bfa9b92e52e08ea36403ea853dee9ec907f6d955"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.524242,
+45.495822
+]
+}
+},
+{
+"_id": "54d55fa56cfcee774c0782e0",
+"type": "Feature",
+"properties": {
+"commentType": "transit",
+"like": true,
+"commentText": "US 26 is used by commuters, sales people, truck drivers, delivery drivers, shoppers, utility crews.  Do nothing that impedes drivers or slows them down.",
+"timeStamp": 1423269686015,
+"uid": "",
+"ip": "52c141bbd2ddf887ebfbb7556720bdd1436fce94"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.52901554107666,
+45.49735334770339
+]
+}
+},
+{
+"_id": "54d560276cfcee774c0782e1",
+"type": "Feature",
+"properties": {
+"commentType": "transit",
+"like": true,
+"commentText": "Four traffic lanes are needed.\nSidewalks are needed.\nBus pullouts are needed.\nCrossing zebras are needed.",
+"timeStamp": 1423269815143,
+"uid": "",
+"ip": "52c141bbd2ddf887ebfbb7556720bdd1436fce94"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.52566814422607,
+45.49756391554351
+]
+}
+},
+{
+"_id": "54d560eb6cfcee774c0782e2",
+"type": "Feature",
+"properties": {
+"commentType": "transit",
+"like": true,
+"commentText": "Us 26 is a highway first and a pedestrian mall second.\n\nSix foot sidewalks with a furnishing zone are all that is needed.  That is, no more than 10 feet from curb to property line.",
+"timeStamp": 1423270012283,
+"uid": "",
+"ip": "52c141bbd2ddf887ebfbb7556720bdd1436fce94"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.52496004104613,
+45.49428498413052
+]
+}
+},
+{
+"_id": "54d91f8b6cfcee774c0782e3",
+"type": "Feature",
+"properties": {
+"commentType": "transit",
+"like": true,
+"commentText": "excited to see sidewalks and a buffer from the busy traffic",
+"timeStamp": 1423515416482,
+"uid": "",
+"ip": "6d254feff49c02f2007a1095343156470fdbf7b9"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.53060340881346,
+45.49803393020329
+]
+}
+},
+{
+"_id": "54f5069e1f741efe309fb650",
+"type": "Feature",
+"properties": {
+"commentType": "sideWalks",
+"like": true,
+"commentText": "174th between Powell and Division has 2 large schools and  children and bike riders are forced to either travel through the dirt and potholed shoulders and in and out of  parked cars on their way to school or headed to the Springwater trail. INSANE",
+"timeStamp": 1425344029871,
+"uid": "",
+"ip": "78aec1e9df28dc2315c4543e8864a37c7f0608e8"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.49987602233887,
+45.496902128251676
+]
+}
+},
+{
+"_id": "54f9e9d2a748f2a10dc3bbfe",
+"type": "Feature",
+"properties": {
+"commentType": "pedestrianCrossing",
+"like": true,
+"commentText": "A marked crosswalk is needed in this vicinity.",
+"timeStamp": 1425664322160,
+"uid": "",
+"ip": "bbca3ffc30f1cc617d395d0e8997766f02908980"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.52998113632202,
+45.497368388289516
+]
+}
+},
+{
+"_id": "54fb734ca748f2a10dc3bc04",
+"type": "Feature",
+"properties": {
+"commentType": "transit",
+"like": true,
+"commentText": "With the recent work on the intersection the light was changed leaving less time to get across Powell while on 148th.  There are now many cars that run red lights because of the decreased amount of time to cross Powell.",
+"timeStamp": 1425765051421,
+"uid": "",
+"ip": "54af0196a727f59a7c9b852ab7fa40b34d70d302"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.5105619430542,
+45.498105372088084
+]
+}
+},
+{
+"_id": "54fe01a50525b50005b1d23f",
+"type": "Feature",
+"properties": {
+"commentType": "sideWalks",
+"like": true,
+"commentText": "There is no sidewalk from the Powell Garage #9 bus stop to the skatepark.  Semi's regularly park here on the south side of Powell (and why are they there?).  A well-worn dirt path has formed, proving that this is a high pedestrian area.",
+"timeStamp": 1425932709320,
+"uid": "",
+"ip": "c008e36e3bed63c36f73a26820dc0da60ecf8dce"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.56239831447603,
+45.4965524306897
+]
+}
+},
+{
+"_id": "5570f38a956bc8500553386e",
+"type": "Feature",
+"properties": {
+"commentType": "centerTurnLane",
+"like": true,
+"commentText": "This project is a great opportunity to provide safe crossings for the 130s bikeway.",
+"timeStamp": 1433465727684,
+"uid": "",
+"ip": "e7952e80cfa51e56d95dade0936f2a690d41d731"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.52910137176514,
+45.49742855059384
+]
+}
+},
+{
+"_id": "5570f410956bc85005533870",
+"type": "Feature",
+"properties": {
+"commentType": "centerTurnLane",
+"like": true,
+"commentText": "Because turning left from the bike lanes on 122nd and Powell is so scary, provision should be made for two-stage left turns (i.e. left turn pockets).",
+"timeStamp": 1433465861690,
+"uid": "",
+"ip": "e7952e80cfa51e56d95dade0936f2a690d41d731"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.53766298294069,
+45.49655619089009
+]
+}
+},
+{
+"_id": "557b3cc789e1934b2450067b",
+"type": "Feature",
+"properties": {
+"commentType": "bicycles",
+"like": true,
+"commentText": "There is a huge opportunity here to connect the Bush Neighborhood Greenway and Ed Benedict Park to the I-205 bike path. A 2-way cycletrack on the southside of Powell would make this connection seemless.",
+"timeStamp": 1434139826823,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.56440997123717,
+45.49711645794208
+]
+}
+}
+]
+},
+{
+"type": "FeatureCollection",
+"features": [
+{
+"_id": "548235604de803f06c8ef073",
+"type": "Feature",
+"properties": {
+"commentType": "streetLuminance",
+"like": false,
+"commentText": "",
+"timeStamp": 1417819452869,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.52828598022461,
+45.49759399659922
+]
+}
+},
+{
+"_id": "548235704de803f06c8ef074",
+"type": "Feature",
+"properties": {
+"commentType": "streetLuminance",
+"like": false,
+"commentText": "",
+"timeStamp": 1417819468240,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.52493858337402,
+45.49780456353945
+]
+}
+},
+{
+"_id": "548235854de803f06c8ef075",
+"type": "Feature",
+"properties": {
+"commentType": "streetLuminance",
+"like": false,
+"commentText": "",
+"timeStamp": 1417819489940,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.5227928161621,
+45.498105372088084
+]
+}
+},
+{
+"_id": "5482359f4de803f06c8ef076",
+"type": "Feature",
+"properties": {
+"commentType": "streetLuminance",
+"like": false,
+"commentText": "",
+"timeStamp": 1417819515296,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.53133296966551,
+45.49742103030931
+]
+}
+},
+{
+"_id": "548235e64de803f06c8ef077",
+"type": "Feature",
+"properties": {
+"commentType": "streetLuminance",
+"like": false,
+"commentText": "",
+"timeStamp": 1417819585057,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.5334111455868,
+45.49732723735018
+]
+}
+},
+{
+"_id": "548248148226153270f18a4b",
+"type": "Feature",
+"properties": {
+"commentType": "businessAccess",
+"like": false,
+"commentText": "",
+"timeStamp": 1417824240575,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.524242,
+45.495822
+]
+}
+},
+{
+"_id": "5482bbbd927dec7e743a4cce",
+"type": "Feature",
+"properties": {
+"commentType": "sideWalks",
+"like": false,
+"commentText": "Something",
+"timeStamp": 1417853849212,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.53236293792725,
+45.492149063735766
+]
+}
+},
+{
+"_id": "5485e661927dec7e743a4cd1",
+"type": "Feature",
+"properties": {
+"commentType": "businessAccess",
+"like": false,
+"commentText": "needs more shops here",
+"timeStamp": 1418061370046,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.48481273651123,
+45.49238973487207
+]
+}
+},
+{
+"_id": "5486406109d163a31f36c2da",
+"type": "Feature",
+"properties": {
+"commentType": "businessAccess",
+"like": false,
+"commentText": "bad donuts",
+"timeStamp": 1418084409954,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.50425338745116,
+45.501564554896895
+]
+}
+},
+{
+"_id": "5487ac3fa0fdfa783facbeda",
+"type": "Feature",
+"properties": {
+"commentType": "pedestrianCrossing",
+"like": false,
+"commentText": "Need more crosswalks.  Just say okay you need a crosswalk past 174 and 281st people to travel across the street to Safeway right in any arena don't walk to the end of the street get into the garage",
+"timeStamp": 1418177557375,
+"uid": "",
+"ip": "b1a8a9973b432f2e31f31d38f725946c60f97067"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.48352527618408,
+45.491667718377784
+]
+}
+},
+{
+"_id": "5487af43a0fdfa783facbedb",
+"type": "Feature",
+"properties": {
+"commentType": "pedestrianCrossing",
+"like": false,
+"commentText": "We need a crosswalk for the kids to cross",
+"timeStamp": 1418178330858,
+"uid": "",
+"ip": "b1a8a9973b432f2e31f31d38f725946c60f97067"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.55169093608856,
+45.49629673647421
+]
+}
+},
+{
+"_id": "5487af9ca0fdfa783facbedc",
+"type": "Feature",
+"properties": {
+"commentType": "pedestrianCrossing",
+"like": false,
+"commentText": "add the crosswalk at 108th St.",
+"timeStamp": 1418178420316,
+"uid": "",
+"ip": "b1a8a9973b432f2e31f31d38f725946c60f97067"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.55197525024414,
+45.496232812738924
+]
+}
+},
+{
+"_id": "5487b0a4a0fdfa783facbedd",
+"type": "Feature",
+"properties": {
+"commentType": "centerTurnLane",
+"like": false,
+"commentText": "Need to have 2 lines in the middle of the main  street",
+"timeStamp": 1418178684130,
+"uid": "",
+"ip": "b1a8a9973b432f2e31f31d38f725946c60f97067"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.55123496055602,
+45.49628921603854
+]
+}
+},
+{
+"_id": "5487b0d4a0fdfa783facbede",
+"type": "Feature",
+"properties": {
+"commentType": "centerTurnLane",
+"like": false,
+"commentText": "Both sides need 2 lanes.",
+"timeStamp": 1418178731889,
+"uid": "",
+"ip": "b1a8a9973b432f2e31f31d38f725946c60f97067"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.55136370658875,
+45.49627793538312
+]
+}
+},
+{
+"_id": "5487b412a0fdfa783facbedf",
+"type": "Feature",
+"properties": {
+"commentType": "centerTurnLane",
+"like": false,
+"commentText": "There should be an east-west buffered bike lane",
+"timeStamp": 1418179559833,
+"uid": "",
+"ip": "b1a8a9973b432f2e31f31d38f725946c60f97067"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.49026298522949,
+45.49353290872457
+]
+}
+},
+{
+"_id": "5487b728a0fdfa783facbee0",
+"type": "Feature",
+"properties": {
+"commentType": "centerTurnLane",
+"like": false,
+"commentText": "Should have left turn lane onto I5 going south.",
+"timeStamp": 1418180351514,
+"uid": "",
+"ip": "b1a8a9973b432f2e31f31d38f725946c60f97067"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.56347656249999,
+45.497172860356585
+]
+}
+},
+{
+"_id": "5487b7a7a0fdfa783facbee1",
+"type": "Feature",
+"properties": {
+"commentType": "centerTurnLane",
+"like": false,
+"commentText": "Need better transition for bike lanes across 205",
+"timeStamp": 1418180478430,
+"uid": "",
+"ip": "b1a8a9973b432f2e31f31d38f725946c60f97067"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.56613731384276,
+45.49735334770339
+]
+}
+},
+{
+"_id": "5487b9daa0fdfa783facbee3",
+"type": "Feature",
+"properties": {
+"commentType": "centerTurnLane",
+"like": false,
+"commentText": "At rush-hour there's not enough capacity to cross",
+"timeStamp": 1418181041844,
+"uid": "",
+"ip": "b1a8a9973b432f2e31f31d38f725946c60f97067"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.53771662712097,
+45.49708261646626
+]
+}
+},
+{
+"_id": "5487ba58a0fdfa783facbee4",
+"type": "Feature",
+"properties": {
+"commentType": "pedestrianCrossing",
+"like": false,
+"commentText": "Still waiting at this crosswalk",
+"timeStamp": 1418181167784,
+"uid": "",
+"ip": "b1a8a9973b432f2e31f31d38f725946c60f97067"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.53755569458008,
+45.496691557936835
+]
+}
+},
+{
+"_id": "5487c0c8a0fdfa783facbee5",
+"type": "Feature",
+"properties": {
+"commentType": "sideWalks",
+"like": false,
+"commentText": "Already there will they need to be moved?",
+"timeStamp": 1418182816178,
+"uid": "",
+"ip": "b1a8a9973b432f2e31f31d38f725946c60f97067"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.52755641937256,
+45.497488712833864
+]
+}
+},
+{
+"_id": "5487c592a0fdfa783facbee6",
+"type": "Feature",
+"properties": {
+"commentType": "sideWalks",
+"like": false,
+"commentText": "",
+"timeStamp": 1418184041880,
+"uid": "",
+"ip": "b1a8a9973b432f2e31f31d38f725946c60f97067"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.49827742576599,
+45.49522882455324
+]
+}
+},
+{
+"_id": "5487c5b2a0fdfa783facbee7",
+"type": "Feature",
+"properties": {
+"commentType": "sideWalks",
+"like": false,
+"commentText": "I'm concerned about the street trees. Will you help us relocate existing trees?",
+"timeStamp": 1418184073837,
+"uid": "",
+"ip": "b1a8a9973b432f2e31f31d38f725946c60f97067"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.49839544296265,
+45.495255146569356
+]
+}
+},
+{
+"_id": "5488978da0fdfa783facbee8",
+"type": "Feature",
+"properties": {
+"commentType": "centerTurnLane",
+"like": false,
+"commentText": "Traffic backs up here for a long way during rush hour.  Needs more capacity.",
+"timeStamp": 1418237795844,
+"uid": ""
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.53875732421875,
+45.49699989277306
+]
+}
+},
+{
+"_id": "54908f32a0fdfa783facbeea",
+"type": "Feature",
+"properties": {
+"commentType": "centerTurnLane",
+"like": false,
+"commentText": "",
+"timeStamp": 1418759938702,
+"uid": "",
+"ip": "526e9c859e7eb36fdc2fb6b6ca17a954e19fc17c"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.51451015472412,
+45.49906794864496
+]
+}
+},
+{
+"_id": "54908f5da0fdfa783facbeeb",
+"type": "Feature",
+"properties": {
+"commentType": "pedestrianCrossing",
+"like": false,
+"commentText": "",
+"timeStamp": 1418759982238,
+"uid": "",
+"ip": "526e9c859e7eb36fdc2fb6b6ca17a954e19fc17c"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.51384496688841,
+45.49896266763551
+]
+}
+},
+{
+"_id": "54d2b3566cfcee774c0782de",
+"type": "Feature",
+"properties": {
+"commentType": "centerTurnLane",
+"like": false,
+"commentText": "4 lanes (or 2 lanes with a median turn lane) needs to be maintained east of I-205 all the way to Gresham. The road is over capacity!",
+"timeStamp": 1423094505673,
+"uid": "",
+"ip": "9034ca51fe609ef62b2f649dae32f3042d8a144b"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.56527900695801,
+45.49729318531874
+]
+}
+},
+{
+"_id": "54f613a27d27db3c1d159798",
+"type": "Feature",
+"properties": {
+"commentType": "transit",
+"like": false,
+"commentText": "When traveling south on 122nd then east onto Powell, there is a danger zone if traffic stopped turning left into Walgreens. Cars rushing the light try to make it can crash. A barrier blocking turns like the west side of Powell for Safeway turnout?",
+"timeStamp": 1425412884903,
+"uid": "",
+"ip": "d54967e7968a05e5ebee434342fd8c95b291a702"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.5364828109741,
+45.497142779075865
+]
+}
+},
+{
+"_id": "54f9ea37a748f2a10dc3bbff",
+"type": "Feature",
+"properties": {
+"commentType": "transit",
+"like": false,
+"commentText": "The closest north-south bus service is 122nd.",
+"timeStamp": 1425664423362,
+"uid": "",
+"ip": "bbca3ffc30f1cc617d395d0e8997766f02908980"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.5105834007263,
+45.498150493231776
+]
+}
+},
+{
+"_id": "54f9ea6ca748f2a10dc3bc00",
+"type": "Feature",
+"properties": {
+"commentType": "transit",
+"like": false,
+"commentText": "The closest north-south bus service is on 182nd, and it only runs weekdays mid-days!",
+"timeStamp": 1425664476063,
+"uid": "",
+"ip": "bbca3ffc30f1cc617d395d0e8997766f02908980"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.496657371521,
+45.49487159597495
+]
+}
+},
+{
+"_id": "54f9eafda748f2a10dc3bc01",
+"type": "Feature",
+"properties": {
+"commentType": "centerTurnLane",
+"like": false,
+"commentText": "Extreme congestion on Powell approaching 174th during peak hours.",
+"timeStamp": 1425664621032,
+"uid": "",
+"ip": "bbca3ffc30f1cc617d395d0e8997766f02908980"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.48472690582277,
+45.49231452525246
+]
+}
+},
+{
+"_id": "54f9eba5a748f2a10dc3bc02",
+"type": "Feature",
+"properties": {
+"commentType": "centerTurnLane",
+"like": false,
+"commentText": "Powell between I-205 and Gresham city limits is grossly inadequate when it comes to traffic capacity and pedestrian amenities.",
+"timeStamp": 1425664788631,
+"uid": "",
+"ip": "bbca3ffc30f1cc617d395d0e8997766f02908980"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.5651717185974,
+45.49729318531874
+]
+}
+},
+{
+"_id": "54f9ec39a748f2a10dc3bc03",
+"type": "Feature",
+"properties": {
+"commentType": "centerTurnLane",
+"like": false,
+"commentText": "From Portland city limits to I-205, Powell is substandard to say the least. It is over capacity and needs continuous sidewalks.",
+"timeStamp": 1425664937327,
+"uid": "",
+"ip": "bbca3ffc30f1cc617d395d0e8997766f02908980"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.48283863067627,
+45.491938475647856
+]
+}
+},
+{
+"_id": "54fe4b9b0525b50005b1d240",
+"type": "Feature",
+"properties": {
+"commentType": "centerTurnLane",
+"like": false,
+"commentText": "There is a blind spot at the stop sign. Need better signage.",
+"timeStamp": 1425951500934,
+"uid": "",
+"ip": "cacc238d8bcf48af1e628f200363e3db782e0e81"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.50356674194335,
+45.496232812738924
+]
+}
+},
+{
+"_id": "54fe4bd90525b50005b1d241",
+"type": "Feature",
+"properties": {
+"commentType": "centerTurnLane",
+"like": false,
+"commentText": "Need more visible stop sign.",
+"timeStamp": 1425951705505,
+"uid": "",
+"ip": "cacc238d8bcf48af1e628f200363e3db782e0e81"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.50578761100768,
+45.49696229105415
+]
+}
+},
+{
+"_id": "5570f2fe956bc8500553386c",
+"type": "Feature",
+"properties": {
+"commentType": "centerTurnLane",
+"like": false,
+"commentText": "Crossing this freeway ramp on a bike is one of the scariest moments on SE Powell.",
+"timeStamp": 1433465587489,
+"uid": "",
+"ip": "e7952e80cfa51e56d95dade0936f2a690d41d731"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.56659865379333,
+45.49727438456036
+]
+}
+},
+{
+"_id": "5570f33e956bc8500553386d",
+"type": "Feature",
+"properties": {
+"commentType": "centerTurnLane",
+"like": false,
+"commentText": "This whole area is really scary for biking and walking. This project really needs to address the I-205 interchange.",
+"timeStamp": 1433465651528,
+"uid": "",
+"ip": "e7952e80cfa51e56d95dade0936f2a690d41d731"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.56478011608124,
+45.49727438456036
+]
+}
+},
+{
+"_id": "5570f3d0956bc8500553386f",
+"type": "Feature",
+"properties": {
+"commentType": "centerTurnLane",
+"like": false,
+"commentText": "People riding bikes are in serious danger at this intersection currently. Whatever is done on Powell should include dedicated signal phases for bikes so that people do not have to bike across right-turn lanes to go straight.",
+"timeStamp": 1433465797452,
+"uid": "",
+"ip": "e7952e80cfa51e56d95dade0936f2a690d41d731"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.53766298294069,
+45.49708261646624
+]
+}
+}
+]
+}
+]

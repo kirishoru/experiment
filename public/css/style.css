@@ -263,9 +263,9 @@ text {
 }
 .icon {
 	font-family: "FontAwesome", sans-serif;
-	font-size: 3em;
+	font-size: 1.75em;
 	cursor: default;
-	font-weight: 500;
+	font-weight: 350;
 }
 .form-block {
     padding-top: 5px;

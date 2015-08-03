@@ -2,7 +2,7 @@ $(document).ready(function () {
 
 	var rates = [];
 	var vals = [];
-	
+
 	$.getJSON('/api/placelist', function (data) {
 		rates = _.countBy(data, function(d){
 			return d.rate;
