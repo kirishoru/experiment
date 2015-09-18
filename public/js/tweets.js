@@ -11,7 +11,7 @@ $(document).ready(function () {
 
 		for (var i = 0; i < data.length; i++) {
 			titles.push(data[i].text);
-//			console.log(data[i].text);
+			console.log(data[i].text);
 		};
 
 		for (var i = 0; i < titles.length; i++) {

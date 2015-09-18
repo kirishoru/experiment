@@ -39,7 +39,7 @@ twit.get('/', function (req, res) {
 
 	twitter.getUserTimeline({
 		screen_name: 'realDonaldTrump',
-		count: '1000'
+		count: '500'
 	}, Terror, Tsuccess);
 });
 
