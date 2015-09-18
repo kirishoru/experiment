@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Kirishoru.com</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -7,8 +8,8 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
 	<script src="js/underscore.min.js"></script>
-<!--	<script src="http://documentcloud.github.io/underscore/underscore-min.js"></script>-->
-<!--	<script src="js/script.js"></script>-->
+	<!--	<script src="http://documentcloud.github.io/underscore/underscore-min.js"></script>-->
+	<!--	<script src="js/script.js"></script>-->
 	<script src="js/charts.js"></script>
 	<script src="js/stats.js"></script>
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
@@ -51,6 +52,8 @@
 								</li>
 								<li class="menu"><a href="dash.html"><span class="glyphicon glyphicon-dashboard"></span> Dashboard</a>
 								</li>
+								<li class="menu"><a href="tweets.html"><span class="glyphicon glyphicon-comment"></span> TweetBot!</a>
+								</li>
 							</ul>
 						</div>
 						<!--/.nav-collapse -->
@@ -58,15 +61,23 @@
 				</div>
 			</div>
 			<div class="col-sm-9">
-				<div class="row">		
-				<div class="panel panel-body"><p>I intend to use this area to practice designing data visualizations. The piece below was just a throwaway built with D3. I'll add more along with some descriptions and background as I get a chance to design them.</p><p>Expect bugginess in this area. Work in progress.</p></div></div>
 				<div class="row">
-				<div class="col-sm-5 col-xs-12 panel panel-body dashPanel" id="dash1"><h3><span class="fa fa-tasks"></span> Website Progress</h3></div>
-				<div class="col-sm-5 col-xs-12 panel panel-body dashPanel" id="dash2"><h3><span class="fa fa-pie-chart"></span> EffThisPlace Ratings</h3></div>
+					<div class="panel panel-body">
+						<p>I intend to use this area to practice designing data visualizations. The piece below was just a throwaway built with D3. I'll add more along with some descriptions and background as I get a chance to design them.</p>
+						<p>Expect bugginess in this area. Work in progress.</p>
+					</div>
 				</div>
 				<div class="row">
-				<div class="col-sm-5 col-xs-12 panel panel-body dashPanel" id="dash3"><h3><span class="fa fa-spinner"></span> Coming Soon</h3></div>
-				<div class="col-sm-5 col-xs-12 panel panel-body dashPanel" id="dash4"><h3><span class="fa fa-spinner"></span> Coming Soon</h3></div>
+					<div class="col-sm-5 col-xs-12 panel panel-body dashPanel" id="dash1">
+						<h3><span class="fa fa-tasks"></span> Website Progress</h3></div>
+					<div class="col-sm-5 col-xs-12 panel panel-body dashPanel" id="dash2">
+						<h3><span class="fa fa-pie-chart"></span> EffThisPlace Ratings</h3></div>
+				</div>
+				<div class="row">
+					<div class="col-sm-5 col-xs-12 panel panel-body dashPanel" id="dash3">
+						<h3><span class="fa fa-spinner"></span> Coming Soon</h3></div>
+					<div class="col-sm-5 col-xs-12 panel panel-body dashPanel" id="dash4">
+						<h3><span class="fa fa-spinner"></span> Coming Soon</h3></div>
 				</div>
 			</div>
 		</div>

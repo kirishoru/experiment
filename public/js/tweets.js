@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
-	$.getJSON('http://outerpowell.hdrinnovation.com/api/approvedcomments', function (data) {
+
+	$.getJSON('twit', function (data) {
 
 		var terminals = {};
 		var startwords = [];
@@ -8,8 +9,9 @@ $(document).ready(function () {
 
 		var titles = [];
 
-		for (var i = 0; i < data[0].features.length; i++) {
-			titles.push(data[0].features[i].properties.commentText);
+		for (var i = 0; i < data.length; i++) {
+			titles.push(data[i].text);
+//			console.log(data[i].text);
 		};
 
 		for (var i = 0; i < titles.length; i++) {

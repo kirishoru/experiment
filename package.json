@@ -12,6 +12,7 @@
 		"monk": "*",
       "mongoskin": "*",
 		"body-parser": "*",
-		"winston": "*"
+		"winston": "*",
+		"twitter-node-client": "*"
 	}
 }
