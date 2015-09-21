@@ -1,17 +1,18 @@
 $(document).ready(function () {
+	$('#generate').html('<center><img src="img/loader.gif" alt="loading..."></center>');
 
-
-	$.getJSON('twit', function (data) {
-
+	$.getJSON('http://www.reddit.com/r/askreddit.json?limit=1000', function (data) {
+		
+		var redata = data.data.children
 		var terminals = {};
 		var startwords = [];
 		var wordstats = {};
 
 		var titles = [];
-
-		for (var i = 0; i < data.length; i++) {
-			titles.push(data[i].text);
-			console.log(data[i].text);
+		
+		for (var i = 0; i < redata.length; i++) {
+			titles.push(redata[i].data.title);
+			console.log(redata[i].data.title);
 		};
 
 		for (var i = 0; i < titles.length; i++) {
@@ -45,6 +46,8 @@ $(document).ready(function () {
 			return title.join(' ');
 		};
 
+		$('#generate').html('Generate Headline');
+		
 		$('#generate').on('click', function () {
 			var title = make_title(3 + Math.floor(3 * Math.random()));
 			$('#generated_title').html(title);

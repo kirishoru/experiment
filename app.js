@@ -12,6 +12,10 @@ winston.add(winston.transports.File, {
 	filename: 'Experiment.log'
 });
 
+var app = express();
+var website = new express.Router();
+var api = new express.Router();
+
 var Twitter = require('twitter-node-client').Twitter;
 var Tconfig = {
 	"consumerKey": "32tJNXxp1FPwsk10xawLyaXcF",
@@ -21,22 +25,15 @@ var Tconfig = {
 	"callBackUrl": ""
 };
 var twitter = new Twitter(Tconfig);
-
-var app = express();
-var website = new express.Router();
-var api = new express.Router();
 var twit = new express.Router();
-
 twit.get('/', function (req, res) {
 	var Terror = function (err, response, body) {
 			console.log('ERROR [%s]', err);
 	};
-
 	var Tsuccess = function (Tdata) {
 //			console.log('Data [%s]', Tdata);
 		res.send(Tdata);
 	};
-
 	twitter.getUserTimeline({
 		screen_name: 'realDonaldTrump',
 		count: '500'
