@@ -1,9 +1,10 @@
 $(document).ready(function () {
 	$('#generate').html('<center><img src="img/loader.gif" alt="loading..."></center>');
 
-	$.getJSON('http://www.reddit.com/r/askreddit.json?limit=1000', function (data) {
+//	$.getJSON('http://www.reddit.com/r/askreddit.json?limit=1000', function (data) {
+	$.getJSON('js/data.json', function (data) {
 		
-		var redata = data.data.children
+		var redata = data
 		var terminals = {};
 		var startwords = [];
 		var wordstats = {};
@@ -11,8 +12,8 @@ $(document).ready(function () {
 		var titles = [];
 		
 		for (var i = 0; i < redata.length; i++) {
-			titles.push(redata[i].data.title);
-			console.log(redata[i].data.title);
+			titles.push(redata[i]);
+			console.log(redata[i]);
 		};
 
 		for (var i = 0; i < titles.length; i++) {
