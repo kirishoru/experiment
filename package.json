@@ -6,9 +6,9 @@
 		"start": "node ./app"
 	},
 	"dependencies": {
-		"express": "~4.12.0",
+		"express": "*",
 		"serve-favicon": "~2.2.0",
-		"mongodb": "~1.4",
+		"mongodb": "*",
 		"monk": "*",
       "mongoskin": "*",
 		"body-parser": "*",

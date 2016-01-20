@@ -47,7 +47,7 @@ $(document).ready(function () {
 			return title.join(' ');
 		};
 
-		$('#generate').html('Generate Headline');
+		$('#generate').html('Generate Bullet');
 		
 		$('#generate').on('click', function () {
 			var title = make_title(3 + Math.floor(3 * Math.random()));

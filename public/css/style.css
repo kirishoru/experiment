@@ -99,7 +99,7 @@
 	background-color: #825182;
     margin: 3px;
     border-top-color: #111;
-    border-radius: 3px:
+    border-radius: 3px;
 }
 .panel-body p,
 .panel-body li {
@@ -265,7 +265,7 @@ text {
 	font-family: "FontAwesome", sans-serif;
 	font-size: 1.75em;
 	cursor: default;
-	font-weight: 350;
+	font-weight: 300;
 }
 .form-block {
     padding-top: 5px;
