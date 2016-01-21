@@ -34,7 +34,7 @@ function populateTable() {
             postContent += '</div>';
             postContent += '</div>';
             postContent += '</div>';
-        };
+        }
         $('#postFeed').html(postContent);
     })
-};
+}
