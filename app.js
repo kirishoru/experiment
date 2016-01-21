@@ -53,8 +53,8 @@ api.get('/posts', function (req, res, next) {
 	db.connect("mongodb://effthisplace:effthisplace@ds051851.mongolab.com:51851/effthisplace", function (err, db) {
 		if (err) return console.dir(err);
 		db.collection('posts').find().sort({
-			timestamp: -1
-		}).limit(50).toArray(function (err, posts) {
+			publishedDate: -1
+		}).limit(10).toArray(function (err, posts) {
 			res.json(posts);
 		});
 	});
