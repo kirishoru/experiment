@@ -14,7 +14,7 @@ function populateTable() {
     var postContent = '';
     $.getJSON('/api/posts', function (data) {
         posts = data;
-        console.log(data)
+        //console.log(data)
         for (var i = 0; i < posts.length; i++) {
             postContent += '<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">';
             postContent += '<div class="panel panel-default">';
