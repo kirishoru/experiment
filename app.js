@@ -48,6 +48,7 @@ app.use(bodyParser.json());
 //	res.header("Access-Control-Allow-Methods", "POST, GET, PUT, DELETE, OPTIONS");
 //	next();
 //});
+$.support.cors = true;
 
 app.use(function (req, res, next) {
 	res.setHeader("Access-Control-Allow-Origin", "*");
