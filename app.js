@@ -42,10 +42,25 @@ var api = new express.Router();
 
 app.use(bodyParser.json());
 
+//app.use(function (req, res, next) {
+//	res.header("Access-Control-Allow-Origin", "*");
+//	res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+//	res.header("Access-Control-Allow-Methods", "POST, GET, PUT, DELETE, OPTIONS");
+//	next();
+//});
+
 app.use(function (req, res, next) {
-	res.header("Access-Control-Allow-Origin", "*");
-	res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-	res.header("Access-Control-Allow-Methods", "POST, GET, PUT, DELETE, OPTIONS");
+	res.setHeader("Access-Control-Allow-Origin", "*");
+	res.setHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+	res.setHeader("Access-Control-Allow-Methods", "POST, GET, PUT, DELETE, OPTIONS");
+
+	if (req.method == 'OPTIONS') {
+		res.statusCode = 200;
+		res.end();
+		next.onOptions();
+		return;
+	}
+
 	next();
 });
 
