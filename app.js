@@ -49,6 +49,17 @@ app.use(function (req, res, next) {
 	next();
 });
 
+api.get('/posts', function (req, res, next) {
+	db.connect("mongodb://effthisplace:effthisplace@ds051851.mongolab.com:51851/effthisplace", function (err, db) {
+		if (err) return console.dir(err);
+		db.collection('posts').find().sort({
+			timestamp: -1
+		}).limit(50).toArray(function (err, posts) {
+			res.json(posts);
+		});
+	});
+});
+
 api.get('/placelist', function (req, res, next) {
 	db.connect("mongodb://effthisplace:effthisplace@ds051851.mongolab.com:51851/effthisplace", function (err, db) {
 		if (err) return console.dir(err);
