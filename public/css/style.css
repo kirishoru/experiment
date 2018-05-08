@@ -93,7 +93,7 @@
 }
 .panel-default>.panel-heading:hover,
 .panel-default>.panel-heading:focus {
-	background-color: #FF6500;
+	background-color: #ffb071;
 	color: #222;
 }
 .panel-body {
@@ -109,7 +109,7 @@
     color: #373737;
 }
 .panel-body a {
-    color: #FF6500;
+    color: #ffb071;
 }
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
     border-top-color: transparent;
@@ -146,7 +146,7 @@ ul {
 
 body {
 	background-attachment: fixed;
-	background-image: linear-gradient(#c6d9ff, #d7ffe1, #c6d9ff);
+	background-image: linear-gradient(#c6d9ff, #ffffff, #c6d9ff);
 	box-sizing: border-box;
 	display: block;
 	font-family: "Open Sans";
@@ -221,7 +221,7 @@ span.input-group-addon {
 }
 .btn:hover,
 .active {
-	background-color: #FF6500;
+	background-color: #ffb071;
 }
 /*map*/
 
@@ -287,7 +287,7 @@ text {
     border-top: none;
 }
 .leaflet-bar a:hover, .leaflet-bar a:focus {
-    background-color: #FF6500;
+    background-color: #ffb071;
         border-bottom: none;
     border-top: none;
 }
