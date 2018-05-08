@@ -8,11 +8,6 @@
 	"dependencies": {
 		"express": "*",
 		"serve-favicon": "~2.2.0",
-//		"mongodb": "~2.0",
-//		"monk": "*",
-//      "mongoskin": "*",
-		"body-parser": "*",
-//		"winston": "*",
-//		"twitter-node-client": "*"
+		"body-parser": "*"
 	}
 }
