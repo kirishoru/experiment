@@ -1,0 +1,19 @@
+{
+  "job": {
+    "title": -122,
+    "company": "An offensive \" is problematic",
+    "location": null,
+    "dates": true,
+    "description": [
+      {
+        "item1": 1
+      },
+      {
+        "item2": 2
+      },
+      {
+        "item3": 3
+      }
+    ]
+  }
+}

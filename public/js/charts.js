@@ -3,19 +3,19 @@ $(document).ready(function () {
 	var data = [
 		{
 			"name": "Framework",
-			"values": [10, 0]
+			"values": [9, 0]
 }, {
 			"name": "Resume",
 			"values": [10, 0]
 }, {
-			"name": "Calculator Page",
+			"name": "Calculator",
 			"values": [10, 0]
 }, {
 			"name": "Dashboad",
-			"values": [2, 8]},
+			"values": [8, 2]},
 {
             "name": "Generator",
-            "values": [2, 8]
+            "values": [10, 0]
 }];
 
 	var margin = {

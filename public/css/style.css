@@ -2,19 +2,20 @@
 /*Color Pallettes*/
 
 .bc-0-0 {
-	background-color: #2A0036;
+	background-color: #c6d9ff;
 }
 
 .bc-0-1 {
-	background-color: #60117D;
+	background-color: #d7ffe1;
 }
 
 .bc-0-2 {
-	background-color: #825182;
+	background-color: #c8c2ff;
 }
 
 .bc-0-3 {
-	background-color: #821A16;
+	background-color: #ffc6c1;
+	/*background-color: #821A16;*/
 }
 
 .bc-0-4 {
@@ -22,19 +23,19 @@
 }
 
 .fc-0-0 {
-	color: #2A0036;
+	color: #c6d9ff;
 }
 
 .fc-0-1 {
-	color: #60117D;
+	color: #d7ffe1;
 }
 
 .fc-0-2 {
-	color: #825182;
+	color: #c8c2ff;
 }
 
 .fc-0-3 {
-	color: #821A16;
+	color: #ffc6c1;
 }
 
 .fc-0-4 {
@@ -71,23 +72,23 @@
     border-color: #111;
 }
 .navbar-default .navbar-nav > li > a {
-	color: #ddd;
+	color: #373737;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	color: #ddd;
-	background-color: #60117D;
+	color: #373737;
+	background-color: #d7ffe1;
 }
 .panel {
-    background-color: #825182;   
+    background-color: #c8c2ff;
 }
 .panel-default {
     border-color: #111   
 }
 .panel-default>.panel-heading {
-	color: #ddd;
-	background-color: #60117D;
+	color: #373737;
+	background-color: #d7ffe1;
 	border-color: #111;
 }
 .panel-default>.panel-heading:hover,
@@ -96,7 +97,7 @@
 	color: #222;
 }
 .panel-body {
-	background-color: #825182;
+	background-color: #c8c2ff;
     margin: 3px;
     border-top-color: #111;
     border-radius: 3px;
@@ -105,7 +106,7 @@
 .panel-body li {
 	font-family: "Open Sans";
 	font-size: 0.9em;
-    color: #ddd;
+    color: #373737;
 }
 .panel-body a {
     color: #FF6500;
@@ -129,10 +130,10 @@ input,
 table,
 small {
 	font-family: "Open Sans";
-    color: #ddd;
+    color: #373737;
 }
 div>small {
-    color: #ddd;
+    color: #373737;
 }
 
 .pull-left {
@@ -145,7 +146,7 @@ ul {
 
 body {
 	background-attachment: fixed;
-	background-image: linear-gradient(#2A0036, #60117D, #2A0036);
+	background-image: linear-gradient(#c6d9ff, #d7ffe1, #c6d9ff);
 	box-sizing: border-box;
 	display: block;
 	font-family: "Open Sans";
@@ -160,7 +161,7 @@ span.med {
 	font-size: 2em;
 }
 .img-thumbnail {
-    background-color: #825182;
+    background-color: #c8c2ff;
     border-color: #111;
 }
 /*calc*/
@@ -173,7 +174,7 @@ svg {
 }
 
 .chartBar text {
-	fill: #ddd;
+	fill: #373737;
 	font-size: 1.15em;
 	font-weight: 800;
 }
@@ -183,13 +184,13 @@ svg {
 }
 
 span.input-group-addon {
-	background-color: #60117D;
+	background-color: #d7ffe1;
 	color: white;
 }
 
 .results {
 	font-family: "Open Sans";
-	color: #ddd;
+	color: #373737;
 	padding-top: 10px;
 }
 
@@ -206,14 +207,14 @@ span.input-group-addon {
 	height: 25px;
 	display: inline-block;
 	padding: 5px;
-	border: 1px solid #ddd;
+	border: 1px solid #373737;
 	border-radius: 4px;
-	background-color: #ddd;
+	background-color: #373737;
 	margin: 0px 5px 5px 0px;
 }
 
 .btn {
-	background-color: #60117D
+	background-color: #d7ffe1
 }
 .btn, .btn:hover, .btn:focus {
     	color: white;   
@@ -271,17 +272,17 @@ text {
     padding-top: 5px;
 }
 .modal-body, .modal-header, .modal-footer {
-    background-color: #825182;
+    background-color: #c8c2ff;
     border-top: transparent;
     border-bottom: transparent;
 }
 
 .leaflet-popup-content-wrapper,
 .leaflet-popup-tip {
-    background-color: #825182;
+    background-color: #c8c2ff;
 }
 .leaflet-control, .leaflet-bar a, .leaflet-control-zoom-in, .leaflet-control-zoom-out {
-    background-color: #825182;
+    background-color: #c8c2ff;
     border-bottom: none;
     border-top: none;
 }
@@ -294,7 +295,7 @@ text {
     visibility: hidden;   
 }
 .leaflet-popup-content {
-    color: #ddd;
+    color: #373737;
 }
 
 /*
