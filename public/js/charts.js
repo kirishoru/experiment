@@ -3,7 +3,7 @@ $(document).ready(function () {
 	var data = [
 		{
 			"name": "Framework",
-			"values": [9, 0]
+			"values": [9, 1]
 }, {
 			"name": "Resume",
 			"values": [10, 0]
