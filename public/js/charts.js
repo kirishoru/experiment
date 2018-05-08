@@ -12,7 +12,10 @@ $(document).ready(function () {
 			"values": [10, 0]
 }, {
 			"name": "Dashboad",
-			"values": [2, 8]
+			"values": [2, 8]},
+{
+            "name": "Generator",
+            "values": [2, 8]
 }];
 
 	var margin = {
