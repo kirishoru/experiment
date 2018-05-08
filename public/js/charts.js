@@ -11,9 +11,6 @@ $(document).ready(function () {
 			"name": "Calculator Page",
 			"values": [10, 0]
 }, {
-			"name": "EffThisPlace Map",
-			"values": [9.5, 005]
-}, {
 			"name": "Dashboad",
 			"values": [2, 8]
 }];
