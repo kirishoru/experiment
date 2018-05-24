@@ -101,3 +101,5 @@ function clearResults() {
 	$('svg g').remove();
 	$('svg svg').remove();
 };
+
+
