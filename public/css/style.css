@@ -1,44 +1,49 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 /*Color Palettes*/
 :root {
-	--color-1:#E6E8FF;
-	--color-2:#B8B9CC;
-	--color-3:#73747F;
-	--color-4:#99A2FF;
-	--color-5:#61647F;
-	--color-A: #ffffff;
-	--color-B: #e5e5e5;
-	--color-C: #cbcbcb;
-	--color-D: #bfbfbf;
-	--color-E: #7f7f7f;
-	--color-F: #404040;
-	--color-pos: #ffa05a;
-	--color-neg: #5ccc99;
-	--color-null: #ff0000;
+    --color-1: #E6E8FF;
+    --color-2: #B8B9CC;
+    --color-3: #73747F;
+    --color-4: #99A2FF;
+    --color-5: #61647F;
+    --color-A: #ffffff;
+    --color-B: #e5e5e5;
+    --color-C: #cbcbcb;
+    --color-D: #bfbfbf;
+    --color-E: #7f7f7f;
+    --color-F: #404040;
+    --color-pos: #ffa05a;
+    --color-neg: #5ccc99;
+    --color-null: #ff0000;
 }
+
 .bc-0-0 {
-	background-color: var(--color-1);
+    background-color: var(--color-1);
 }
+
 .bc-0-1, .fc-0-4 {
-	background-color: var(--color-2);
+    background-color: var(--color-2);
 }
 
 /* make sidebar nav vertical */
 @media (min-width: 768px) {
-	.sidebar-nav .navbar .navbar-collapse {
-		padding: 0;
-		max-height: none;
-	}
-	.sidebar-nav .navbar ul {
-		float: none;
-	}
-	.sidebar-nav .navbar ul:not {
-		display: block;
-	}
-	.sidebar-nav .navbar li {
-		float: none;
-		display: block;
-	}
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+    }
+
+    .sidebar-nav .navbar ul {
+        float: none;
+    }
+
+    .sidebar-nav .navbar ul:not {
+        display: block;
+    }
+
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+    }
 }
 
 /*nav and panel overrides*/
@@ -46,118 +51,170 @@
 .navbar-default .navbar-nav > li > a {
     border-color: var(--color-3);
 }
+
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	color: var(--color-1);
-	background-color: var(--color-4);
+    color: var(--color-1);
+    background-color: var(--color-4);
 }
+
 .panel, .panel-default {
     background-color: var(--color-3);
-	border-color: var(--color-3);
+    border-color: var(--color-3);
 }
-.panel-default>.panel-heading {
-	color: var(--color-2);
-	background-color: var(--color-3);
+
+.panel-default > .panel-heading {
+    color: var(--color-2);
+    background-color: var(--color-3);
 }
-.panel-default>.panel-heading:hover,
-.panel-default>.panel-heading:focus {
-	background-color: var(--color-4);
-	color: var(--color-1);
+
+.panel-default > .panel-heading:hover,
+.panel-default > .panel-heading:focus {
+    background-color: var(--color-4);
+    color: var(--color-1);
 }
+
 .panel-body, .panel-body p, .panel-body li, .panel-body a {
-	background-color: var(--color-1);
+    background-color: var(--color-1);
     margin: 1px;
     border-radius: 3px;
-	font-family: "Open Sans";
-	font-size: 0.9em;
-	color: var(--color-3);
+    font-family: "Open Sans";
+    font-size: 0.9em;
+    color: var(--color-3);
 }
-.panel-default>.panel-heading+.panel-collapse>.panel-body {
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
     border-top-color: transparent;
 }
 
-/*globals*/
-p, li, span, label, h1, h2, h3, h4, h5, h6, select, input, table, small {
-	font-family: "Open Sans";
-    color: var(--color-3);
-}
-div>small {
-    color: var(--color-1);
-}
-.pull-left {
-	margin-right: 5px;
-}
-ul {
-	list-style-type: none;
-}
-body {
-	background-attachment: fixed;
-	background-image: linear-gradient(var(--color-1), var(--color-2), var(--color-1));
-	box-sizing: border-box;
-	display: block;
-	font-family: "Open Sans";
-	height: auto;
-	width: auto;
-}
-span.big {
-	font-size: 4em;
-}
-span.med {
-	font-size: 2em;
+#scroll-card {
+    max-height: 90vh;
+    overflow-y: scroll;
+    position: relative;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--color-5);
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    -webkit-border-radius: 7px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-F);
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    -webkit-border-radius: 7px;
+}
+
+/*globals*/
+/*p, li, span, label, h1, h2, h3, h4, h5, h6, select, input, table, small {
+	font-family: "Open Sans";
+    color: var(--color-3);
+}*/
+div > small {
+    color: var(--color-1);
+}
+
+.pull-left {
+    margin-right: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(var(--color-1), var(--color-2), var(--color-1));
+    box-sizing: border-box;
+    display: block;
+    font-family: "Open Sans";
+    height: auto;
+    width: auto;
+}
+
+span.big {
+    font-size: 4em;
+}
+
+span.med {
+    font-size: 2em;
+}
 
 /*calc*/
 svg {
-	margin-top: 0px;
-	margin-bottom: 0px;
-	font-family: "Open Sans";
-	font-size: .75em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Open Sans";
+    font-size: .75em;
 }
+
 .jp7 {
-	display: none;
+    display: none;
 }
+
 span.input-group-addon {
-	background-color: var(--color-2);
-	color: white;
+    background-color: var(--color-2);
+    color: white;
 }
+
 .results {
-	font-family: "Open Sans";
-	color: var(--color-3);
-	padding-top: 10px;
+    font-family: "Open Sans";
+    color: var(--color-3);
+    padding-top: 10px;
 }
+
 .bf {
-	font-size: 1.5em;
-	word-wrap: normal;
-	white-space: normal;
+    font-size: 1.5em;
+    word-wrap: normal;
+    white-space: normal;
 }
+
 .stats {
-	font-family: "Open Sans";
-	font-size: 1em;
-	width: 110px;
-	height: 25px;
-	display: inline-block;
-	padding: 5px;
-	border: 1px solid var(--color-C);
-	border-radius: 4px;
-	background-color: var(--color-A);
-	margin: 0px 5px 5px 0px;
+    font-family: "Open Sans";
+    font-size: 1em;
+    width: 110px;
+    height: 25px;
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid var(--color-C);
+    border-radius: 4px;
+    background-color: var(--color-A);
+    margin: 0px 5px 5px 0px;
 }
+
 .btn {
-	background-color: var(--color-3);
+    background-color: var(--color-3);
 }
+
 .btn, .btn:hover, .btn:focus {
-    	color: var(--color-1);
+    color: var(--color-1);
 }
+
 .btn:hover, .active {
-	background-color: var(--color-4);
+    background-color: var(--color-4);
 }
+
 i.fa {
-	font-size: 1.25em;
+    font-size: 1.25em;
 }
+
 text {
-	font-family: "Open Sans", sans-serif;
-	font-size: 1.25em;
-	text-anchor: right;
-	cursor: default;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.25em;
+    text-anchor: right;
+    cursor: default;
 }
