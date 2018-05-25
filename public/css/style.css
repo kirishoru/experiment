@@ -215,6 +215,6 @@ i.fa {
 text {
     font-family: "Open Sans", sans-serif;
     font-size: 1.25em;
-    text-anchor: right;
+    text-anchor: start;
     cursor: default;
 }

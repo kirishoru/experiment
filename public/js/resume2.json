@@ -1,46 +1,84 @@
 {
-  "squadName" : "Super Hero Squad",
-  "homeTown" : "Metro City",
-  "formed" : 2016,
-  "secretBase" : "Super tower",
-  "active" : true,
-  "members" : [
+  "career": "Overview",
+  "description": "I am a senior manager with over 20 years of proven leadership experience managing teams and individuals in a dynamic, data driven environment. I have been recognized as a visionary leader and driver of strategy for enterprise technology, and I have a track record of successfully implementing forward thinking technologies that provide real business value. I am passionate about professional development, creating high-performing teams, and fostering a culture of cooperation and positive working relationships.",
+  "chrono": [
     {
-      "name" : "Molecule Man",
-      "age" : 29,
-      "secretIdentity" : "Dan Jukes",
-      "powers" : [
-        "Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.",
-        "Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.",
-        "Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.",
-        "Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.",
-        "Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore."
+      "title": "Senior Technology Delivery Manager",
+      "company": "HDR, Inc.",
+      "location": "Portland, OR",
+      "dates": "9/2015 - Present",
+      "description": "Provide senior organizational leadership to a large, multidisciplinary team of technology professionals, encompassing seven direct reports, 15 dotted line, and over 100 individuals, covering 5 time zones. Collaborate as a member of the senior leadership team in the development of policies and strategic initiatives. Direct and manage the life-cycle of a portfolio of purchased applications, in-house development projects and products, and multi-phase, multi-year technology programs, for a diverse and complex customer base that includes numerous federal, state, and municipal agencies.",
+      "items": [
+        {
+          "Senior Leadership": "Navigated a complex organizational structure to transform a geographically distributed collection of professionals into a unified technology delivery team, focused on collaboration, and promoting an inclusive, collaborative workplace. Cultivating a unified organization resulted in increased overall job satisfaction in delivery teams, reduced turnover, and visibility that is more positive with customers and stakeholders.",
+          "Life-cycle Management & Process Improvement": "Spearheaded a modernization of delivery practices and methodologies, establishing key performance indicators for service delivery and quality. Extending agile initiatives and renovating institutionalized processes combined with team consolidation resulted in increased effectiveness in service delivery and reduced total cost of ownership of the overarching technology portfolio.",
+          "Planning & Portfolio Management": "Managed the delivery of over $5 million in greenfield application development in a 2yr span, expanding the combined service portfolio by 20%. Established and built relationships with internal and external customers and stakeholders to develop technology road-maps and implementation plans, designed to maximize the return on their technology investments. Negotiated contracts and managed vendors to deliver services to internal and external customers. Organized and oversaw delivery of large-scale technology programs for major Department of Defense agencies."
+        }
       ]
     },
     {
-      "name" : "Madame Uppercut",
-      "age" : 39,
-      "secretIdentity" : "Jane Wilson",
-      "powers" : [
-        "Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.",
-        "Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.",
-        "Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.",
-        "Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.",
-        "Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore."
+      "title": "Software Development Manager",
+      "company": "HDR, Inc.",
+      "location": "Salem, OR",
+      "dates": "4/2010 - 9/2015",
+      "description": "Led a team of six interdisciplinary technology direct reports in delivering and implementing custom developed or off-the-shelf solutions for a broad range of customers, internal and external. Work collaboratively with peers and other development leads to balance resource utilization across the company. Establish and implement standardized development methodologies that include customer feedback to maximize effective service delivery.",
+      "items": [
+        {
+          "Strategic Leadership": "Participated as a member of the strategic technology council to identify key markets for expansion and in the development of policies and strategic initiatives.",
+          "Software Lifecycle Management": "Introduced agile methodologies into team practices resulting in 50% faster project turnaround and a higher degree of satisfaction in client engagements.",
+          "Portfolio Management": "Advised multiple clients on technology strategies custom fitted to their market, establishing long lasting, effective relationships. Designed and developed a public involvement toolkit, deployed as a mobile-first JavaScript application that allowed collection of custom data within hours. Usage of the template resulted in a 90% decrease in ramp-up costs for data collection services, and provided a framework for machine learning, sentiment analysis, and predictive analytics, for any data collection campaign. Optimized and automated the data management and quality assurance processes for legislative reporting within the Oregon Department of Transportation�s (ODOT) State Radio Project, resulting in a 50% reduction in turnaround costs for monthly deliverables, saving the agency hundreds of thousands of dollars over the course of the program."
+        }
       ]
     },
     {
-      "name" : "Eternal Flame",
-      "age" : 1000000,
-      "secretIdentity" : "Unknown",
-      "powers" : [
-        "Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.",
-        "Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.",
-        "Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.",
-        "Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.",
-        "Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.",
-        "Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.",
-        "Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore."
+      "title": "Project Manager",
+      "company": "HDR, Inc.",
+      "location": "Salem, Oregon",
+      "dates": "4/2009 - 4/2010",
+      "description": "Assembled and led multiple project delivery teams to develop and implement custom or off-the-shelf applications. Performed needs assessments and gap analyses for clients to determine the best possible approach to technology investments.",
+      "items": [
+        {
+          "Process Improvement": "Partially outsourced development processes to cloud-based solution resulting in a 50% decrease in infrastructure costs, increased scalability, and expanding potential penetration across all markets. Implemented comprehensive defect tracking and source control systems that resulted in 100% faster turnaround of issues and greater control of product development cycle.",
+          "Manage Projects & Resources": "Spearheaded the development of a custom SaaS reporting application compliant with the Federal Office of Management and Budget (OMB) guidelines for the American Recovery and Reinvestment Act (ARRA) that includes a dynamic ad hoc reporting and GIS services to visualize the path of stimulus funds. The platform was utilized by 95% of agencies within the state of Oregon for the entirety of the ARRA reporting requirements, potentially saving millions of dollars in recovery funds."
+        }
+      ]
+    },
+    {
+      "title": "Enterprise Systems Manager",
+      "company": "Oregon Bridge Delivery Partners",
+      "location": "Salem, Oregon",
+      "dates": "5/2004 - 4/2009",
+      "description": "Established a greenfield enterprise network for a $3.2 billion joint venture. Manage the systems and staff of the IT organization. Implement, manage, and administer all software, applications, and services required by the joint venture as it pursues its mission. Coach and mentor junior technical staff to create a positive culture of customer service.",
+      "items": [
+        {
+          "Enterprise Planning": "Co-designed and implemented enterprise level network topology for $3.2 billion joint venture company, including all facilities, capacity, infrastructure, and business continuity planning.",
+          "Policy Development": "Established framework for appropriate use of all information technology systems, and developed multiple policies to direct service usage throughout the organization, including bandwidth use and optimization, network infrastructure planning, cyber security, and business continuity planning.",
+          "Team Assembly": "Recruit and hire a team of technology professionals to support and carry forward the mission of the business."
+        }
+      ]
+    },
+    {
+      "title": "Senior Systems Technician",
+      "company": "Oregon State Legislative Assembly",
+      "location": "Salem, Oregon",
+      "dates": "9/1998 - 5/2004",
+      "description": "Design, install, configure, and maintain enterprise network infrastructure and managed performance and security of all systems. Planned and managed numerous large-scale multi-phase technology deployments. Provide top-tier support and advanced system troubleshooting for a broad range of software and hardware systems and applications. Provide technical information to management and staff on the optimal utilization of network capabilities. Recommend ways to utilize appropriate technologies to maximize future benefits.",
+      "items": [
+        {
+          "": ""
+        }
+      ]
+    },
+    {
+      "title": "Logistics Specialist",
+      "company": "US Navy",
+      "location": "Various",
+      "dates": "11/1993 - 11/1997",
+      "description": "Tasked with maintaining ship or company military supply stores. Responsibilities include purchasing and procurement, shipping and receiving, and issuing of equipment, tools, and consumable items. Open-purchase, inventory, screen, procure, receive, store and issue material and replace repair selected components. Utilize financial accounting and database systems to perform inventory and financial management functions.",
+      "items": [
+        {
+          "": ""
+        }
       ]
     }
   ]

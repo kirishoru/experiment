@@ -7,10 +7,10 @@ request.open('GET', requestURL);
 request.responseType = 'text';
 request.send();
 request.onload = function () {
-    var superHeroesText = request.response;
-    var superHeroes = JSON.parse(superHeroesText);
-    populateHeader(superHeroes);
-    showHeroes(superHeroes);
+    var resumeFeedText = request.response;
+    var resumeFeed = JSON.parse(resumeFeedText);
+    populateHeader(resumeFeed);
+    showHeroes(resumeFeed);
 };
 
 
@@ -20,11 +20,11 @@ function populateHeader(jsonObj) {
 
     var myCardHeader = document.createElement('h2');
     myCardHeader.setAttribute("class", "card-header");
-    myCardHeader.textContent = jsonObj.squadName;
+    myCardHeader.textContent = jsonObj.career;
 
     var myCardBody = document.createElement('p');
     myCardBody.setAttribute("class", "card-body");
-    myCardBody.textContent = 'Hometown: ' + jsonObj.homeTown + ' // Formed: ' + jsonObj.formed;
+    myCardBody.textContent = jsonObj.description;
 
     header.appendChild(myCard);
     myCard.appendChild(myCardHeader);
@@ -32,51 +32,57 @@ function populateHeader(jsonObj) {
 }
 
 function showHeroes(jsonObj) {
-    var heroes = jsonObj.members;
-    for (var i = 0; i < heroes.length; i++) {
+    var chrono = jsonObj.chrono;
+    for (var i = 0; i < chrono.length; i++) {
         var myCard = document.createElement('div');
         myCard.setAttribute("class", "card mb-3");
         myCard.setAttribute("id", "list-item-" + i);
 
         var scrollListItem = document.createElement('a');
-        scrollListItem.setAttribute("class", "list-group-item list-group-item-action");
-        scrollListItem.setAttribute("href", "#list-item-" + i );
-        scrollListItem.textContent = heroes[i].name;
+        scrollListItem.setAttribute("class", "list-group-item list-group-item-action small");
+        scrollListItem.setAttribute("href", "#list-item-" + i);
+        scrollListItem.textContent = chrono[i].title;
 
-        var myCardHeader = document.createElement('h4');
+        var myCardHeader = document.createElement('h5');
         myCardHeader.setAttribute("class", "card-header");
-        myCardHeader.textContent = heroes[i].name;
+        myCardHeader.textContent = chrono[i].title + " (" + chrono[i].dates + ")";
 
         var myCardBody = document.createElement('div');
         myCardBody.setAttribute("class", "card-body");
 
-        var myPara1 = document.createElement('p');
-        myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity;
-        myPara1.setAttribute("class", "card-text");
-
-        var myPara2 = document.createElement('p');
-        myPara2.textContent = 'Age: ' + heroes[i].age;
-        myPara2.setAttribute("class", "card-text");
+        var myPara1 = document.createElement('em');
+        myPara1.textContent = chrono[i].company + " - " + chrono[i].location;
+        myPara1.setAttribute("class", "card-text small");
 
         var myPara3 = document.createElement('p');
-        myPara3.textContent = 'Superpowers:';
+        myPara3.textContent = chrono[i].description;
         myPara3.setAttribute("class", "card-text");
 
         var myList = document.createElement('ul');
-        myList.setAttribute("class", "card-text small");
+        myList.setAttribute("class", "card-text");
 
-        var superPowers = heroes[i].powers;
-        for (var j = 0; j < superPowers.length; j++) {
-            var listItem = document.createElement('li');
-            listItem.textContent = superPowers[j];
-            myList.appendChild(listItem);
+        var chronoDetails = chrono[i].items;
+        for (var key in chronoDetails) {
+            if (!chronoDetails.hasOwnProperty(key)) continue;
+            var obj = chronoDetails[key];
+            for (var prop in obj) {
+                if (!obj.hasOwnProperty(prop)) continue;
+
+                var listItemTitle = document.createElement('strong');
+                listItemTitle.textContent = prop;
+
+                var listItem = document.createElement('p');
+                listItem.textContent = obj[prop];
+
+                myList.appendChild(listItemTitle);
+                myList.appendChild(listItem);
+            }
         }
 
         scrollList.appendChild(scrollListItem);
         myCard.appendChild(myCardHeader);
         myCard.appendChild(myCardBody);
         myCardBody.appendChild(myPara1);
-        myCardBody.appendChild(myPara2);
         myCardBody.appendChild(myPara3);
         myCardBody.appendChild(myList);
         section.appendChild(myCard);
