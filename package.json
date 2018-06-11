@@ -1,15 +1,15 @@
 {
-	"name": "experiment",
-	"version": "0.0.0",
-	"private": true,
-	"main": "app.js",
-	"scripts": {
-		"start": "node ./app"
-	},
-	"dependencies": {
-		"express": "*",
-		"ejs": "*",
-		"serve-favicon": "~2.4.5",
-		"body-parser": "*"
-	}
+  "name": "untitled",
+  "version": "0.0.1",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "*",
+    "express": "*",
+    "serve-favicon": "*",
+    "body-parser": "*"
+  }
 }
