@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+
+<% include ../partials/head %>
+
+<body>
+
+<% include ../partials/nav %>
+
+<div class="container-fluid">
+    <div class="row" style="padding-bottom: 10px;"></div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card text-white bg-secondary mb-2">
+                <div class="card-body">
+                    <p class="card-text small">I initially built this calculator as practice for doing math in
+                        javascript and jQuery, but after I built it, it turned out to be handy for my own personal use.
+                        Now I reference it all the time when calculating my caloric needs and body fat percentage.
+                        (I might be a fitness nerd)</p>
+                    <p class="card-text small">If you are interested in accurate results, the measurement section
+                        requires
+                        the use of some
+                        skinfold calipers. Otherwise, just play around.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+
+                    <div class="card">
+                        <h3 class="card-header">Body Stats</h3>
+                        <div class="card-body">
+
+                            <form id="stats">
+                                <div class="form-group">
+                                    <p class="mb-1">Jackson-Pollock Method</p>
+                                    <select class="form-control form-control-sm" id="jp">
+                                        <option value="1">JP3</option>
+                                        <option value="2">JP7</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <p class="mb-1">Gender</p>
+                                    <select class="form-control form-control-sm" id="mf">
+                                        <option value="1">Male</option>
+                                        <option value="2">Female</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <p class="mb-1">Basic Info</p>
+                                    <div class="input-group input-group-sm mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">Age</div>
+                                        </div>
+                                        <input class="form-control" type="number" id="age" placeholder="Age"/>
+                                    </div>
+
+                                    <div class="input-group input-group-sm mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">Lbs</div>
+                                        </div>
+                                        <input class="form-control" type="number" id="weight" placeholder="Weight"/>
+                                    </div>
+                                </div>
+                            </form>
+
+
+                            <p class="mb-1">Measurements</p>
+                            <form>
+                                <div class="form-group">
+
+                                    <div class="input-group input-group-sm mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">(mm)</div>
+                                        </div>
+                                        <input class="form-control" type="number" id="chest" placeholder="Chest"/>
+                                    </div>
+
+                                    <div class="input-group input-group-sm mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">(mm)</div>
+                                        </div>
+                                        <input class="form-control" type="number" id="abdominal"
+                                               placeholder="Abdominal"/>
+                                    </div>
+
+                                    <div class="input-group input-group-sm">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">(mm)</div>
+                                        </div>
+                                        <input class="form-control" type="number" id="thigh" placeholder="Thigh"/>
+                                    </div>
+
+                                </div>
+                            </form>
+
+                            <form class="jp7">
+                                <div class="form-group">
+
+                                    <div class="input-group input-group-sm mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">(mm)</div>
+                                        </div>
+                                        <input class="form-control" type="number" id="tricep" placeholder="Tricep"/>
+                                    </div>
+
+                                    <div class="input-group input-group-sm mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">(mm)</div>
+                                        </div>
+                                        <input class="form-control" type="number" id="subscap" placeholder="Subscapular"/>
+                                    </div>
+
+                                    <div class="input-group input-group-sm mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">(mm)</div>
+                                        </div>
+                                        <input class="form-control" type="number" id="suprail" placeholder="Suprailiac"/>
+                                    </div>
+
+                                    <div class="input-group input-group-sm mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">(mm)</div>
+                                        </div>
+                                        <input class="form-control" type="number" id="midaxil" placeholder="Midaxilary"/>
+                                    </div>
+
+                                </div>
+                            </form>
+                            <button type="button" class="btn btn-block" id="btn1">Calculate</button>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            <div class="col-sm-6">
+                <div class="card">
+                    <h3 class="card-header">Results</h3>
+                    <div class="card-body">
+                        <button type='button' class='btn btn-block' id='btn2'>Clear Results</button>
+                        <div class="results"></div>
+                        <svg class="chartBar"></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<script src="../../public/js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+<% include ../partials/head %>
+
+<body>
+
+<% include ../partials/nav %>
+
+<!--Start Resume Page Content-->
+
+<div class="container-fluid">
+    <div class="row" style="padding-bottom: 10px;"></div>
+    <div class="row">
+
+        <div class="col-sm-auto">
+            <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+                <div class="card-header">EDUCATION / CERTIFICATIONS</div>
+                <div class="card-body">
+                    <p class="card-text small"><span class="fa fa-check-circle-o"></span> Portland State University,
+                        Project Management</p>
+                    <p class="card-text small"><span class="fa fa-check-circle-o"></span> ITILv3 Foundation</p>
+                    <p class="card-text small"><span class="fa fa-check-circle-o"></span> Certified Scrum Master(CSM)
+                    </p>
+                </div>
+            </div>
+            <div id="scroll-list" class="card-body mb-3"></div>
+        </div>
+
+        <!--Start dynamic resume-->
+
+        <div class="col-sm">
+            <div data-spy="scroll" data-target="#myList" data-offset="0" id="scroll-card">
+                <header></header>
+                <section></section>
+            </div>
+        </div>
+
+        <!--end dynamic resume-->
+    </div>
+
+</div>
+
+<!--End Resume Page Content-->
+
+<script type="text/javascript" src="../../public/js/resume.js"></script>
+
+</body>
+</html>

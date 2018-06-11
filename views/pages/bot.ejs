@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+<% include ../partials/head %>
+
+<body>
+
+<% include ../partials/nav %>
+
+<div class="container-fluid">
+    <div class="row" style="padding-bottom: 10px;"></div>
+     <section name="jumbotron">
+            <div class="jumbotron text-center">
+                <h1>Resume Bullet Generator</h1>
+                <div class="card-body text-left">
+                    <p>I made a resume bullet generator by feeding every sentence in my resume into a Markov engine.
+                        It's
+                        kinda funny.</p>
+                    <button id="generate" class="btn"></button>
+                    <div class="row" style="padding-bottom: 20px;"></div>
+                    <h3 id="generated_title"></h3>
+                </div>
+            </div>
+        </section>
+</div>
+<script src="../../public/js/markov.js"></script>
+
+</body>
+
+</html>
