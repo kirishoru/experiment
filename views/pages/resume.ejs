@@ -14,7 +14,7 @@
     <div class="row">
 
         <div class="col-sm-auto">
-            <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+            <div class="card text-white bg-secondary mb-3">
                 <div class="card-header">EDUCATION / CERTIFICATIONS</div>
                 <div class="card-body">
                     <p class="card-text small"><span class="fa fa-check-circle-o"></span> Portland State University,
@@ -24,12 +24,12 @@
                     </p>
                 </div>
             </div>
-            <div id="scroll-list" class="card" style="max-width: 18rem;"></div>
+            <div id="scroll-list" class="card mb-3"></div>
         </div>
 
         <!--Start dynamic resume-->
 
-        <div class="col-sm">
+        <div class="col-md">
             <div data-spy="scroll" data-target="#myList" data-offset="0" id="scroll-card">
                 <header></header>
                 <section></section>
@@ -44,6 +44,8 @@
 <!--End Resume Page Content-->
 
 <script type="text/javascript" src="../../public/js/resume.js"></script>
+
+<% include ../partials/footer %>
 
 </body>
 </html>
