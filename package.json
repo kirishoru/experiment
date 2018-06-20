@@ -7,9 +7,11 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "body-parser": "*",
     "ejs": "*",
     "express": "*",
-    "serve-favicon": "*",
-    "body-parser": "*"
+    "markov-chain-js": "*",
+    "pick-one-by-weight": "^1.0.2",
+    "serve-favicon": "*"
   }
 }
