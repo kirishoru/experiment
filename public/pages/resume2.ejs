@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+
+<% include ../../partials/head.ejs %>
+<!--<head>
+    <meta charset=”UTF-8">
+    <meta http-equiv=”X-UA-Compatible” content=”IE=edge”>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1">
+    <title>Kirishoru.com</title>
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <link rel="icon" href="../../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/style.css">
+
+</head>-->
+
+<body>
+<% include ../../partials/nav.ejs %>
+<!--<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"><img src="img/logo.svg" width="30" height="30" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="resume2.html">Resume</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Experiments
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="calc.html">Body Composition Calculator</a>
+                    <a class="dropdown-item" href="dash.html">Dashboard</a>
+                    <a class="dropdown-item" href="bot.html">Generator</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>-->
+
+<!--Start Resume Page Content-->
+
+<div class="container-fluid">
+    <div class="row" style="padding-bottom: 10px;"></div>
+    <div class="row">
+
+        <div class="col-sm-auto">
+            <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+                <div class="card-header">EDUCATION / CERTIFICATIONS</div>
+                <div class="card-body">
+                    <p class="card-text small"><span class="fa fa-check-circle-o"></span> Portland State University,
+                        Project Management</p>
+                    <p class="card-text small"><span class="fa fa-check-circle-o"></span> ITILv3 Foundation</p>
+                    <p class="card-text small"><span class="fa fa-check-circle-o"></span> Certified Scrum Master(CSM)
+                    </p>
+                </div>
+            </div>
+            <div id="scroll-list" class="card-body mb-3"></div>
+        </div>
+
+        <!--Start dynamic resume-->
+
+        <div class="col-sm">
+            <div data-spy="scroll" data-target="#myList" data-offset="0" id="scroll-card">
+                <header></header>
+                <section></section>
+            </div>
+        </div>
+
+        <!--end dynamic resume-->
+    </div>
+</div>
+
+<!--End Resume Page Content-->
+
+<script type="text/javascript" src="../../js/resume.js"></script>
+
+</body>
+</html>
