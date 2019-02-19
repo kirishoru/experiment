@@ -1,7 +1,7 @@
 var header = document.querySelector('header');
 var section = document.querySelector('section');
 var scrollList = document.getElementById('scroll-list');
-var requestURL = '../../public/js/baelic.json';
+var requestURL = '../../public/js/relics.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'text';
