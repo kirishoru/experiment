@@ -18,7 +18,7 @@ module.exports = function (app) {
     app.get('/bot', function (req, res) {
         res.render('pages/bot');
     });
-    app.get('/bot', function (req, res) {
+    app.get('/baelic', function (req, res) {
         res.render('pages/baelic');
     });
 };
