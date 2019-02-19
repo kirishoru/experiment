@@ -64,9 +64,13 @@ function showHeroes(jsonObj) {
             for (var prop in obj) {
                 if (!obj.hasOwnProperty(prop)) continue;
 
+                var listItemTitle = document.createElement('strong');
+                listItemTitle.textContent = prop;
+
                 var listItem = document.createElement('p');
                 listItem.textContent = obj[prop];
 
+                myList.appendChild(listItemTitle);
                 myList.appendChild(listItem);
             }
         }
@@ -92,7 +96,7 @@ function showHeroes(jsonObj) {
         scrollList.appendChild(scrollListItem);
         myCard.appendChild(myCardHeader);
         myCard.appendChild(myCardBody);
-        myCardBody.appendChild(myPara1);
+        // myCardBody.appendChild(myPara1);
         myCardBody.appendChild(myPara3);
         myCardBody.appendChild(myList);
         section.appendChild(myCard);
