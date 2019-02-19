@@ -1,6 +1,6 @@
 {
   "career": "Foreword",
-  "description": "My name is Baelic al Faar, and I am a Hero\n…I hope…\nI record this story in the vain hope that my legacy will be one of good and decency. I pray that my tale will be told to inspire rather than as a warning. But destiny cares not for the wishes of mortals, and though I am long lived, eventually I’ll find myself just as much a victim of time as anyone. At the end of my life, will this account be lost and forgotten? I will tell it anyway, if only for those that traveled with me. They at least deserve to be remembered.  \nThe stories of others deserve to be told, but if not by them, then why not by me. I only hope I can do justice to their valor. But how can I convey with mere words the vanity, the foolhardiness, the bullheaded...tenacity? ...The bravery. The pure hearted altruism. The faith and majesty and greatness embodied by them all. Their splendor.\nI know not. I will simply have to try. Bear with me dear reader; this chronicle will tell the tale of a group of heroes that saved…everything.\n",
+  "description": "My name is Baelic al Faar",
   "chrono": [
     {
       "title": "Beginnings and Endings",
@@ -15,6 +15,20 @@
           "3": "I record this story in the vain hope that my legacy will be one of good and decency. I pray that my tale will be told to inspire rather than as a warning. But destiny cares not for the wishes of mortals, and though I am long lived, eventually I’ll find myself just as much a victim of time as anyone. At the end of my life, will this account be lost and forgotten? I will tell it anyway, if only for those that traveled with me. They at least deserve to be remembered. ",
           "4": "The stories of others deserve to be told, but if not by them, then why not by me. I only hope I can do justice to their valor. But how can I convey with mere words the vanity, the foolhardiness, the bullheaded...tenacity? ...The bravery. The pure hearted altruism. The faith and majesty and greatness embodied by them all. Their splendor.",
           "5": "I know not. I will simply have to try. Bear with me dear reader; this chronicle will tell the tale of a group of heroes that saved…everything."
+        }
+      ]
+    },
+    {
+      "title": "Test Section",
+      "company": "testing",
+      "location": "testing places",
+      "dates": "testing dates",
+      "description": "test description.",
+      "items": [
+        {
+          "test item 1": "test item description",
+          "test item 2": "test item description",
+          "test item 3": "test item description"
         }
       ]
     }
