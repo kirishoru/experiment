@@ -45,14 +45,10 @@ function showHeroes(jsonObj) {
 
         var myCardHeader = document.createElement('h5');
         myCardHeader.setAttribute("class", "card-header");
-        myCardHeader.textContent = chrono[i].title + " (" + chrono[i].dates + ")";
+        myCardHeader.textContent = chrono[i].title;
 
         var myCardBody = document.createElement('div');
         myCardBody.setAttribute("class", "card-body");
-
-        var myPara1 = document.createElement('em');
-        myPara1.textContent = chrono[i].company + " - " + chrono[i].location;
-        myPara1.setAttribute("class", "card-text small");
 
         var myPara3 = document.createElement('p');
         myPara3.textContent = chrono[i].description;
@@ -68,16 +64,30 @@ function showHeroes(jsonObj) {
             for (var prop in obj) {
                 if (!obj.hasOwnProperty(prop)) continue;
 
-                var listItemTitle = document.createElement('strong');
-                listItemTitle.textContent = prop;
-
                 var listItem = document.createElement('p');
                 listItem.textContent = obj[prop];
 
-                myList.appendChild(listItemTitle);
                 myList.appendChild(listItem);
             }
         }
+
+        // var chronoDetails = chrono[i].items;
+        // for (var key in chronoDetails) {
+        //     if (!chronoDetails.hasOwnProperty(key)) continue;
+        //     var obj = chronoDetails[key];
+        //     for (var prop in obj) {
+        //         if (!obj.hasOwnProperty(prop)) continue;
+        //
+        //         var listItemTitle = document.createElement('strong');
+        //         listItemTitle.textContent = prop;
+        //
+        //         var listItem = document.createElement('p');
+        //         listItem.textContent = obj[prop];
+        //
+        //         myList.appendChild(listItemTitle);
+        //         myList.appendChild(listItem);
+        //     }
+        // }
 
         scrollList.appendChild(scrollListItem);
         myCard.appendChild(myCardHeader);
