@@ -64,13 +64,13 @@ function showHeroes(jsonObj) {
             for (var prop in obj) {
                 if (!obj.hasOwnProperty(prop)) continue;
 
-                var listItemTitle = document.createElement('strong');
-                listItemTitle.textContent = prop;
+                // var listItemTitle = document.createElement('strong');
+                // listItemTitle.textContent = prop;
 
                 var listItem = document.createElement('p');
                 listItem.textContent = obj[prop];
 
-                myList.appendChild(listItemTitle);
+                // myList.appendChild(listItemTitle);
                 myList.appendChild(listItem);
             }
         }
