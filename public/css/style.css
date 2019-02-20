@@ -21,6 +21,27 @@
     background-color: var(--color-1);
 }
 
+.bc-story {
+    background-color: var(--color-D);
+    color: var(--color-F)
+}
+
+.bc-header {
+    background-color: var(--color-F);
+    color: var(--color-B)
+}
+
+.bc-body {
+    background-color: var(--color-E);
+}
+
+.bc-hf {
+    background-color: var(--color-F);
+}
+
+
+
+
 .bc-0-1, .fc-0-4 {
     background-color: var(--color-2);
 }
@@ -76,7 +97,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: var(--color-5);
+    background: var(--color-F);
     border: 2px solid rgba(0, 0, 0, 0);
     background-clip: padding-box;
     -webkit-border-radius: 7px;
@@ -84,7 +105,7 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--color-F);
+    background: var(--color-4);
     border: 2px solid rgba(0, 0, 0, 0);
     background-clip: padding-box;
     -webkit-border-radius: 7px;
@@ -125,7 +146,9 @@ span.med {
     font-size: 2em;
 }
 
-/*calc*/
+
+
+/*calculator settings*/
 svg {
     margin-top: 0px;
     margin-bottom: 0px;
