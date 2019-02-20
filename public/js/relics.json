@@ -1,9 +1,9 @@
 {
-  "career": "Foreword",
-  "description": "My name is Baelic al Faar",
+  "career": "The Relics of Mormesk",
+  "description": "by Baelic al Farr, Hero/Devil",
   "chrono": [
     {
-      "title": "Beginnings and Endings",
+      "title": "Foreword",
       "description": "",
       "items": [
         {
@@ -16,46 +16,51 @@
       ]
     },
     {
-      "title": "Test Section 1",
-      "description": "test description.",
+      "title": "Beginnings and Endings",
+      "description": "",
       "items": [
         {
-          "test item 1": "test item description",
-          "test item 2": "test item description",
-          "test item 3": "test item description"
+          "1": "In order to begin, I must start at previous endings. As happens to many of my kind, I was abandoned as a babe. As a half-elf, my mixed features were a curse to both my parents. I have no memory of them and know nothing of their trials, but I must judge them harshly for their decision to abandon me near a humble human farming village. Though I have no memory of my parents, I have a great many in that village. A young couple took me in and showed me kindness. They raised me next to their own son. Taught me everything they knew and treated me in all ways as though I was their own flesh and blood. They taught me what it means to be a family.",
+          "2": "My parents set me down and told me of my abandonment when I they felt I was old enough to understand. I knew of course that I was a different; my almond shaped eyes, slighter frame, and lightly tipped ears set me apart from everyone else in the village. But despite knowing my nature, they continued to treat me as one of their children, and the entire village turned a blind eye to my differences, accepting me as one of their own.",
+          "3": "The cruelty of my origin did not make itself known until many years later. My kind does not age the same way humans do and it was with great sadness I watched my parents and siblings grow old before my eyes. Eventually I buried my adopted parents when they died of old age, and then later, I buried my brother. The farm went to my brother with the passing of my parents and to his children after him. I worked my family’s fields with my nephews and nieces and then eventually with their children as well. I learned many of the crafts of the village and, leaving the farm to my brother’s descendants, for a time knew a sort of peace as the local leatherworker.",
+          "4": "My life was a bliss of peace until the day a travelling seer passed through the village. The crone sat in front of what passed for a village tavern, quite honestly, it was just a stoop in front of the chandler's shop and told the fortunes of people for a few pennies. She entertained the locals with bits of fancy - who would marry soon, who would be with child, the bounty of the next harvest. I was just as amused as everyone else. When I took my turn at her hands, I expected more of the same, a successful hobby of woodcarving, or scandalous rumors of some farmer’s daughter fancying the local half-elf. Instead, the moment the old woman's hands touched mine, her eyes went wide, and she spoke reverently of fate.",
+          "5": "She said that the village son of two races would soon find two paths before him. One would lead to greatness and glory, the path of a hero. The other would lead to ruin of all that he touched, a bane upon the world. Then she said those most cursed words, \"It is not for you to know your destiny,” she rasped, “only history will tell if your existence was as a paragon or a plague.\"",
+          "6": "I shook my hands free of hers and quickly stepped back. Everyone tried to laugh off the dire telling, to distance themselves from cruel fate, but the festive air had cleared. The villagers all somberly went back to their day and the seer packed her things and left that very night. Two days later, the beginnings of my fortune were forced upon me.",
+          "7": "---   ---",
+
         }
       ]
     },
     {
-      "title": "Test Section 2",
-      "description": "test description.",
+      "title": "Endings and Beginnings",
+      "description": "",
       "items": [
         {
-          "test item 1": "test item description",
-          "test item 2": "test item description",
-          "test item 3": "test item description"
+          "1": "test item description",
+          "2": "test item description",
+          "3": "test item description"
         }
       ]
     },
     {
-      "title": "Test Section 3",
-      "description": "test description.",
+      "title": "Home to Heroes",
+      "description": "2019.02.15",
       "items": [
         {
-          "test item 1": "test item description",
-          "test item 2": "test item description",
-          "test item 3": "test item description"
+          "1": "test item description",
+          "2": "test item description",
+          "3": "test item description"
         }
       ]
     },
     {
       "title": "Test Section 4",
-      "description": "test description.",
+      "description": "",
       "items": [
         {
-          "test item 1": "test item description",
-          "test item 2": "test item description",
-          "test item 3": "test item description"
+          "1": "test item description",
+          "2": "test item description",
+          "3": "test item description"
         }
       ]
     }

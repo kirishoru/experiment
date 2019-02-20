@@ -64,34 +64,12 @@ function showHeroes(jsonObj) {
             for (var prop in obj) {
                 if (!obj.hasOwnProperty(prop)) continue;
 
-                // var listItemTitle = document.createElement('strong');
-                // listItemTitle.textContent = prop;
-
                 var listItem = document.createElement('p');
                 listItem.textContent = obj[prop];
 
-                // myList.appendChild(listItemTitle);
                 myList.appendChild(listItem);
             }
         }
-
-        // var chronoDetails = chrono[i].items;
-        // for (var key in chronoDetails) {
-        //     if (!chronoDetails.hasOwnProperty(key)) continue;
-        //     var obj = chronoDetails[key];
-        //     for (var prop in obj) {
-        //         if (!obj.hasOwnProperty(prop)) continue;
-        //
-        //         var listItemTitle = document.createElement('strong');
-        //         listItemTitle.textContent = prop;
-        //
-        //         var listItem = document.createElement('p');
-        //         listItem.textContent = obj[prop];
-        //
-        //         myList.appendChild(listItemTitle);
-        //         myList.appendChild(listItem);
-        //     }
-        // }
 
         scrollList.appendChild(scrollListItem);
         myCard.appendChild(myCardHeader);
